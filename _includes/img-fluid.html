@@ -1,0 +1,9 @@
+{%-comment-%}
+	Usage:
+
+	{%-include img-fluid.html
+		img="/assets/img/my_image.jpg"
+		alt="Placeholder alternate image text"-%}
+{%-endcomment-%}
+<img src="{{ include.img | relative_url }}" class="img-fluid" alt="{{ include.alt }}">
+{%-comment-%} No new line, avoid <p>{%-endcomment-%}

@@ -1,0 +1,4 @@
+{%-for category in site.data.sfz.instruments.categories-%}
+	<h2><a href="{{ page.dir | append: category.page | relative_url }}">
+		{{ category.name }}</a></h2>
+{%-endfor-%}

@@ -1,0 +1,95 @@
+---
+layout: "no_title"
+---
+{%-comment-%}
+	Create a breadcrumbs like menu with <h1> and a <h2> instrument title link
+	to the external instrument page.
+	TODO: add some audio preview and details table after content, like direct
+	download link, samplerate and audio format type
+{%-endcomment-%}
+{%-assign instruments_url = "/" | relative_url-%}
+{%-assign instrument_page = page.name | replace: ".md", ''-%}
+{%-assign category_page   = page.dir  | split: '/' | last-%}
+{%-for category in site.data.sfz.instruments.categories-%}
+	{%-if category.page == category_page-%}
+		{%-for instrument in category.instruments-%}
+			{%-assign category_url = instruments_url | append: category_page | append: '/'-%}
+			{%-if instrument.page == instrument_page-%}
+<h1><a href="{{ instruments_url }}">Instruments</a> | <a href="{{ category_url }}">
+	{{ category.name }}</a></h1>
+<h2><a href="{{ instrument.url }}">{{ instrument.name }}</a></h2>
+<p>{{ instrument.short_description }}</p>
+{{ content }}
+{%-comment-%}
+	Add audio example if any
+{%-endcomment-%}
+				{%-assign audio_example = "/assets/audio/" | append: category_page |
+					append: '/' | append: instrument_page | append: ".mp3"-%}
+				{%-for static_file in site.static_files-%}
+					{%-if static_file.path == audio_example-%}
+						{%-assign have_audio_example = true-%}
+						{%-break-%}
+					{%-endif-%}
+				{%-endfor-%}
+				{%-if have_audio_example-%}
+<h2 id="audio_example">Audio Example</h2>
+<audio src="{{ audio_example | absolute_url }}" controls preload></audio>
+				{%-endif-%}
+<h2 id="info">Info</h2>
+<table class="table table-sm table-hover table-striped table-responsive">
+	<tr class="table-bordered">
+		<th>Author</th>
+		<td>{{ instrument.author }}</td>
+	</tr>
+				{%-if instrument.license-%}
+	<tr class="table-bordered">
+		<th>License</th>
+		<td>{{ instrument.license }}</td>
+	</tr>
+				{%-endif-%}
+				{%-if instrument.version-%}
+	<tr class="table-bordered">
+		<th>Version</th>
+		<td>v{{ instrument.version }}</td>
+	</tr>
+				{%-endif-%}
+</table>
+				{%-for download in instrument.downloads-%}
+					{%-if have_download == nil-%}
+						{%-assign have_download = true-%}
+<table class="table table-sm table-bordered table-hover table-striped table-responsive-xl">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Download</th>
+			<th scope="col">Format</th>
+			<th scope="col">Samplerate</th>
+			<th scope="col">Size</th>
+			<th scope="col">Description</th>
+		</tr>
+	</thead>
+	<tbody>
+					{%-endif-%}
+		<tr>
+			<td><a href="{{ download.url }}">{{ download.label }}</a></td>
+			<td>{{ download.format }}</td>
+					{%-if download.samplerate-%}
+						{%-assign samplerate = download.samplerate | append: " KHz"-%}
+					{%-endif-%}
+			<td>{{ samplerate }}</td>
+						{%-assign samplerate = nil-%}
+			<td>{{ download.size }}</td>
+			<td>{{ download.short_description }}</td>
+		</tr>
+				{%-endfor-%}
+				{%-if have_download-%}
+	</tbody>
+</table>
+				{%-endif-%}
+				{%-break-%}
+			{%-endif-%}
+		{%-endfor-%}
+	{%-endif-%}
+{%-endfor-%}
+{%-if have_audio_example-%}
+	{% include open-embed.html %}
+{%-endif-%}

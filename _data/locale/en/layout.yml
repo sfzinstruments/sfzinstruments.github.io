@@ -1,0 +1,49 @@
+navigation:
+- label: "News"
+  url: "/news"
+
+- label: "Docs"
+  type: "dropdown"
+  pages:
+  - label: "Add Instruments"
+    url: "/docs/adding-instruments"
+
+cards:
+- label: "Follow us"
+  icon_type: "eye"
+  icon_category: "fas"
+  links:
+  - label: "Discord Chat"
+    url: "https://discord.gg/t7nrZ6d"
+    icon_type: "discord"
+    icon_category: "fab"
+
+  - label: "IRC"
+    title: "Internet Relay Chat"
+    url: "https://kiwiirc.com/nextclient/#irc://irc.freenode.net:+6697/#sfzformat"
+    icon_type: "hashtag"
+    icon_category: "fas"
+
+  - label: "GitHub Organization"
+    url: "https://github.com/sfzinstruments/"
+    icon_type: "github"
+    icon_category: "fab"
+
+  - label: "News Atom Feed"
+    url: "/atom.xml"
+    icon_type: "rss"
+    icon_category: "fas"
+
+- label: "Quick links"
+  icon_type: "link"
+  icon_category: "fas"
+  links:
+  - label: "SFZ Format"
+    url: "https://sfzformat.com/"
+    icon_type: "book"
+    icon_category: "fas"
+
+  - label: "rgc:audio SFZ test suite"
+    url: "https://github.com/sfz/tests/"
+    icon_type: "download"
+    icon_category: "fas"

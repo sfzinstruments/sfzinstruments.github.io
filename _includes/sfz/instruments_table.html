@@ -1,0 +1,38 @@
+{%-assign instruments_url = "/" | relative_url-%}
+{%-for category in site.data.sfz.instruments.categories-%}
+	{%-assign page_name = page.dir | split: '/' | last-%}
+	{%-if page_name == category.page -%}
+<h1><a href="{{ instruments_url }}">Instruments</a> | {{ category.name }}</h1>
+<table class="table table-sm table-bordered table-hover table-striped table-responsive-xl">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Name</th>
+			<th scope="col">Author</th>
+			<th scope="col">License</th>
+			<th scope="col">Version</th>
+			<th scope="col">Description</th>
+			<th scope="col">Download Size</th>
+		</tr>
+	</thead>
+	<tbody>
+		{%-for instrument in category.instruments-%}
+			{%-if instrument.use_details_page-%}
+				{%-assign instrument_page = instruments_url | append: category.page |
+					append: '/' | append: instrument.page-%}
+			{%-else-%}
+				{%-assign instrument_page = instrument.url-%}
+			{%-endif-%}
+	<tr>
+		<td><a href="{{ instrument_page}}">{{ instrument.name }}</a></td>
+		<td>{{ instrument.author }}</td>
+		<td>{{ instrument.license }}</td>
+		<td>{{ instrument.version }}</td>
+		<td>{{ instrument.short_description }}</td>
+		<td>{{ instrument.download_size }}</td>
+	</tr>
+		{%-endfor-%}
+	</tbody>
+</table>
+		{%-break-%}
+	{%-endif-%}
+{%-endfor-%}

@@ -1,0 +1,367 @@
+categories:
+- name: "Basses"
+  page: "basses"
+  instruments:
+  - name:    "Standard Bass"
+    page:    "standard_bass"
+    version: "2"
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-bass"
+    download_size: "233 MB"
+    short_description: "Multi Articulation Bass"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1Xp4p4l3qIkQM2kAZf6al0Lpo3NQpcRwk&export=download"
+      format: "flac"
+      samplerate: "44.1"
+      size: "233 MB"
+      short_description: ""
+
+- name: "Drums"
+  page: "drums"
+  instruments:
+  - name:    "G1 Basic"
+    page:    "g1_basic"
+#   version: ""
+    author:  "TKDrums"
+#   license: ""
+#   samplerate: ""
+#   format:  ""
+    url:     "https://tkd-sound.booth.pm/items/1214365"
+    download_size: "144+ MB"
+#   short_description: ""
+
+  - name:    "SM Drums"
+    page:    "sm_drums"
+    version: "1.2"
+    author:  "Scott McLean, Tod Stillwell, Suleiman Ali"
+    license: "Public Domain"
+    url:     "https://smmdrums.wordpress.com/for-sfz-sforzando/"
+    download_size: "2.2+ GB"
+    short_description: "Deeply Sampled Free Drums for the Masses."
+    use_details_page: true
+    downloads:
+    - label: "Drum Kit"
+      url: "https://drive.google.com/file/d/1DHs_jQyNGfls6j3mvyO9F8DpK8vkySLa/view?usp=sharing"
+      format: "wav"
+#     samplerate: ""
+      size: "2.2 GB"
+      short_description: ""
+
+    - label: "Manual"
+      url: "https://drive.google.com/file/d/0B8sahgYlFzKrLWFITU1hY0tSNE0/view?usp=sharing"
+      size: "2.3 MB"
+      short_description: "Includes track templates and Reaper project files"
+
+  - name:    "Salamander Drumkit"
+    page:    "salamander"
+#   version: ""
+    author:  "Alexander Holm"
+    license: "CC-BY-SA-3.0"
+    url:     "https://archive.org/details/SalamanderDrumkit"
+    download_size: "~370 MB"
+    short_description:
+      "A creative commons licenced drum library mapped with sfz"
+    use_details_page: true
+    downloads:
+    - label: "Drum Kit"
+      url: "https://archive.org/download/SalamanderDrumkit/SalamanderDrumkit_archive.torrent"
+      format: "wav"
+#     samplerate: ""
+      size: "369,7 MB"
+      short_description: ""
+
+- name: "Folk"
+  page: "folk"
+  instruments:
+  - name:    "1912"
+    page:    "1912"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/1912"
+    download_size: "218 MB"
+    short_description: "Physical 5 Strings"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1xOSOAQUgAHX_zbn4zn6KK0V8_LDR6a_W&export=download"
+      format: "flac"
+      samplerate: "44.1"
+      size: "218 MB"
+      short_description: ""
+
+  - name:    "Koto"
+    page:    "koto"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/koto"
+    download_size: "212 MB"
+    short_description: "13 Strings KOTO"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1gJLM4OhADQoTSusjra23xM1NIb2s5WFK&export=download"
+      format: "flac"
+      samplerate: "48"
+      size: "212 MB"
+      short_description: ""
+
+- name: "Guitars"
+  page: "guitars"
+  instruments:
+  - name:    "Metal GTX"
+    page:    "metal_gtx"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/metal-gtx"
+    download_size: "1.3 GB"
+    short_description: "Multi Articulation Electric Guitar"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1FurY3_x_tog_56irX1VDNyRCUt5JD7bO&export=download"
+      format: "flac"
+      samplerate: "44.1"
+      size: "1.3 GB"
+      short_description: ""
+
+  - name:    "The Slapper"
+    page:    "slapper"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    samplerate: "48"
+    format:  "flac"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/the-slapper"
+    download_size: "854 MB"
+    short_description: "Slap Guitars"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1YmHJuK_98V4nBzahUX_o5XaJiy_hE_bU&export=download"
+      format: "flac"
+      samplerate: "48"
+      size: "854 MB"
+      short_description: ""
+
+  - name:    "Standard Guitar"
+    page:    "standard_guitar"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-guitar"
+    download_size: "716 MB"
+    short_description: "Multi Articulation Electric Guitar"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1uoV7icZV1_IjiOGKM7Wm5_K5UkF41Fm3&export=download"
+      format: "flac"
+      samplerate: "44.1"
+      size: "716 MB"
+      short_description: ""
+
+- name: "Misc"
+  page: "misc"
+  instruments:
+  - name:    "Versilian Community Sample Library"
+    page:    "vcsl"
+    version: "1.2.2"
+    author:  "Versilian Studios LLC"
+    license: "CC0-1.0"
+    url:     "https://github.com/sgossner/VCSL/releases"
+    download_size: "4+ GB"
+    short_description:
+      "General-purpose sample library for a set of quality samples suitable for
+      use in software and media of all kinds.
+      Intended to be a broader expansion to the VSCO 2 CE sample set."
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sgossner/VCSL/archive/v1.2.2-RC.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "4.0 GB"
+      short_description: "zip archive"
+
+    - label: "Instrument"
+      url: "https://github.com/sgossner/VCSL/archive/v1.2.2-RC.tar.gz"
+      format: "wav"
+      samplerate: "44.1"
+      size: "4.1 GB"
+      short_description: "tar.gz archive"
+
+- name: "Orchestra"
+  page: "orchestra"
+  instruments:
+  - name:    "VS Chamber Orchestra: Community Edition"
+    page:    "vcso_ce"
+    version: "1.1.0"
+    author:  "Versilian Studios LLC"
+    license: "CC0-1.0"
+    url:     "https://github.com/sgossner/VSCO-2-CE/releases"
+    download_size: "2.3 GB"
+    short_description: "An open-source orchestral library."
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sgossner/VSCO-2-CE/archive/1.1.0.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "2.3 GB"
+      short_description: "zip archive"
+
+    - label: "Instrument"
+      url: "https://github.com/sgossner/VSCO-2-CE/archive/1.1.0.tar.gz"
+      format: "wav"
+      samplerate: "44.1"
+      size: "2.3 GB"
+      short_description: "tar.gz archive"
+
+  - name:    "Virtual Playing Orchestra"
+    page:    "vpo"
+    version: "3.2"
+    author:  "Paul Battersby"
+#   license: ""
+    url:     "http://virtualplaying.com/virtual-playing-orchestra/"
+    download_size: "618 MB"
+    short_description:
+      "This is a full, free orchestral sample library featuring section and solo
+      instruments for woodwinds, brass, strings and percussion."
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "http://virtualplaying.com/virtual-playing-orchestra/#download"
+      format: "wav"
+      samplerate: "44.1"
+      size: "617 MB"
+      short_description: ""
+
+    - label: "Standard Orchestra"
+      url:   "http://virtualplaying.com/go/virtual-playing-orchestra-v3-2-standard-scripts/"
+      format: "sfz"
+      size:   "545 KB"
+      short_description: ""
+
+    - label: "Performance Orchestra"
+      url:   "http://virtualplaying.com/go/virtual-playing-orchestra-v3-2-performance-scripts/"
+      format: "sfz"
+      size:   "360 KB"
+      short_description: ""
+
+- name: "Percussions"
+  page: "percussions"
+  instruments:
+  - name:    "Epic Tom"
+    page:    "epic_tom"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/epic-tom"
+    download_size: "153 MB"
+    short_description: "Hexadeca Tom"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1Fn72nQs--h9iVzJlP3rJjcvakA-b309h&export=download"
+      format: "flac"
+      samplerate: "96"
+      size: "153 MB"
+      short_description: ""
+
+  - name:    "Kitchen X"
+    page:    "kitchen_x"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/kitchen-x"
+    download_size: "169 MB"
+    short_description: "Kitchen Percussion"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/uc?id=1MEdT-6Ihha_1ZEM2u08MzgVGHSIZ9ACU&export=download"
+      format: "flac"
+      samplerate: "44.1"
+      size: "169 MB"
+      short_description: ""
+
+  - name:    "Wind Chime"
+    page:    "wind_chime"
+#   version: ""
+    author:  "Unreal Instruments"
+    license: "Public Domain"
+    url:     "https://unreal-instruments.wixsite.com/unreal-instruments/wind-chime"
+    download_size: "1006 MB"
+    short_description: "Wind Chime Percussion"
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "https://drive.google.com/open?id=1ZTifS6mozIfoMKYUydgDOUrFl700k6ed"
+      format: "flac"
+      samplerate: "96"
+      size: "1006 MB"
+      short_description: ""
+
+- name: "Pianos"
+  page: "pianos"
+  instruments:
+  - name:    "Church Steinway"
+    page:    "church_steinway"
+   #version: ""
+    author:  "Pianobook"
+   #license: ""
+    url:     "https://www.pianobook.co.uk/library/church-steinway/"
+    short_description:
+      "Steinway Model D recorded in a church in Glasgow."
+    use_details_page: true
+
+  - name:    "Piano in 162"
+    page:    "in_162"
+#   version: ""
+    author:  "Ivy Audio"
+#   license: ""
+    url:     "http://ivyaudio.com/Piano-in-162"
+    download_size: "4.9 GB"
+    short_description:
+      "A Steinway Model B Grand Piano, sampled with five dynamic levels,
+      two round robins, pedal on and off samples, and two mic positions."
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "magnet:?xt=urn:btih:4c1609b3098a309a32b6ce848dc3711b5182d9c9&dn=Ivy%20Audio%20-%20Piano%20in%20162%20sfz.zip&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce"
+#     format: ""
+#     samplerate: ""
+      size: "4.9 GB"
+      short_description: ""
+
+  - name:    "Salamander Grand Piano"
+    page:    "salamander"
+    version: "3"
+    author:  "Alexander Holm"
+    license: "CC-BY-3.0"
+    url:     "http://freepats.zenvoid.org/Piano/acoustic-grand-piano.html#SalamanderGrandPiano"
+    download_size: "394+ MB"
+    short_description:
+      "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm
+      above the strings, 48kHz 24bit, 16 velocity layers."
+    use_details_page: true
+    downloads:
+    - label: "Instrument"
+      url: "http://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPianoV3+20161209_48khz24bit.tar.xz"
+      format: "wav (24bit)"
+      samplerate: "48"
+      size: "1.18 GB"
+      short_description: ""
+
+    - label: "Instrument"
+      url: "http://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPianoV3+20161209_44khz16bit.tar.xz"
+      format: "wav (16bit)"
+      samplerate: "44.1"
+      size: "394 MB"
+      short_description: ""
