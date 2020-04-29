@@ -43,6 +43,11 @@ cards:
     icon_type: "book"
     icon_category: "fas"
 
+  - label: "Mappings"
+    url: "https://github.com/sfzinstruments/mappings/"
+    icon_type: "download"
+    icon_category: "fas"
+
   - label: "rgc:audio SFZ test suite"
     url: "https://github.com/sfz/tests/"
     icon_type: "download"
