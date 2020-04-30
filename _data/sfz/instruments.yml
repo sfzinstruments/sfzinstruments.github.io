@@ -257,6 +257,14 @@ categories:
 - name: "Percussions"
   page: "percussions"
   instruments:
+  - name:    "Dim Cabasa"
+    page:    "dim_cabasa"
+    author:  "kinwie"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/kinwie.dim-cabasa/"
+    download_size: "12 MB"
+    short_description: "Cabasa"
+
   - name:    "Epic Tom"
     page:    "epic_tom"
 #   version: ""
