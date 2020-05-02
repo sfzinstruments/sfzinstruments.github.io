@@ -325,6 +325,7 @@ categories:
     author:  "Pianobook"
    #license: ""
     url:     "https://www.pianobook.co.uk/library/church-steinway/"
+    download_size: "104 MB"
     short_description:
       "Steinway Model D recorded in a church in Glasgow."
     use_details_page: true
