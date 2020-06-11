@@ -4,11 +4,10 @@ title: Add instruments
 In order to add a SFZ instrument sample library to the site list, the following
 steps are required:
 
-- Create a new page under `/software/instruments`, inside a proper category
-	subdirectory, e.g.: `/software/instruments/pianos/some_piano.md`.
+- Create a new page inside a proper category subdirectory, e.g.: `/pianos/some_piano.md`.
 	The category must match with the `page` information in the YAML DB (see below).
 
-- Add the instrument information in the `_data/sfz/instruments.yml` DB.
+- Add the instrument information in the `/_data/sfz/instruments.yml` DB.
 
 - If an audio demo is available for the instrument, it must be made in mp3 format,
 	placed in the `/assets/audio` directory with the same name and category as
@@ -19,7 +18,7 @@ steps are required:
 ## Category index page
 
 If the instrument will take part of a new category, an index page must be created
-with a related page name. For example in `/software/instrument/basses/`:
+with a related page name. For example in `/basses/`:
 
 ```
 ---
@@ -34,14 +33,14 @@ on the browser window title.
 
 ## Instrument page
 
-For example, a `/software/instruments/pianos/some_piano.md` will be:
+For example, a `/pianos/some_piano.md` will be:
 
 ```
 ---
 title:  "Some Piano"
 layout: "sfz/instrument"
 ---
-<here will be inserted automatically the instrument brief description in the DB>
+<here will be inserted automatically the instrument brief description from the DB>
 
 Here goes only an optional, detailed instrument description content,
 that will be appended to the brief description above. The empty line will be
