@@ -342,6 +342,56 @@ categories:
       "Steinway Model D recorded in a church in Glasgow."
     use_details_page: true
 
+  - name:    "Greg Sullivan E-Pianos"
+    page:    "greg_sullivan_e-pianos"
+#   version: ""
+    author:  "Greg Sullivan"
+    license: "CC-BY-3.0"
+    url:     "https://github.com/sfzinstruments/GregSullivan.E-Pianos/"
+    download_size: "21.5 MB"
+    short_description:
+      "3 piano instruments made by Greg Sullivan."
+
+  - name:    "Headroom Piano"
+    page:    "headroom_piano"
+#   version: ""
+    author:  "Bengt Nilsson"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/BengtNilsson.HeadroomPiano/"
+    download_size: "156.2 MB"
+    short_description:
+      "Yamaha C3 Grand Piano."
+
+  - name:    "jRhodes3c"
+    page:    "jrhodes3c"
+#   version: ""
+    author:  "Jeff Learman"
+    license: "CC-BY-NC-SA-4.0"
+    url:     "https://github.com/sfzinstruments/jlearman.jRhodes3c/"
+    download_size: "18 MB"
+    short_description:
+      "1977 Rhodes Mark I Stage 73, looped"
+
+  - name:    "Maestro Concert Grand Piano"
+    page:    "maestro_concert_grand_piano"
+#   version: ""
+    author:  "Mats Helgesson"
+    license: "Custom"
+    url: "https://github.com/sfzinstruments/MatsHelgesson.MaestroConcertGrandPiano/"
+    download_size: "268.5 MB"
+    short_description:
+      "Yamaha CF-3 Grand Piano."
+
+  - name:    "Splendid Grand Piano"
+    page:    "splendid_grand_piano"
+#   version: ""
+    author:  "AKAI"
+#   license: ""
+    url: "https://github.com/sfzinstruments/SplendidGrandPiano/"
+    download_size: "77 MB"
+    short_description:
+      "Steinway Piano."
+
   - name:    "Piano in 162"
     page:    "in_162"
 #   version: ""
