@@ -22,9 +22,18 @@
 			{%-else-%}
 				{%-assign instrument_page = instrument.url-%}
 			{%-endif-%}
+			{%-for author in site.data.sfz.authors-%}
+				{%-if author.name == instrument.author-%}
+					{%-assign instrument_author = '<a href="' | append: author.url
+						| append: '">' | append: author.name | append: '</a>'-%}
+					{%-break-%}
+				{%-else-%}
+					{%-assign instrument_author = instrument.author-%}
+				{%-endif-%}
+			{%-endfor-%}
 	<tr>
 		<td><a href="{{ instrument_page}}">{{ instrument.name }}</a></td>
-		<td>{{ instrument.author }}</td>
+		<td>{{ instrument_author }}</td>
 		<td>{{ instrument.license }}</td>
 		<td>{{ instrument.version }}</td>
 		<td>{{ instrument.short_description }}</td>
