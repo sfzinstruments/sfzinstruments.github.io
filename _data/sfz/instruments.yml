@@ -2,6 +2,30 @@ categories:
 - name: "Basses"
   page: "basses"
   instruments:
+  - name:    "Fashionbass"
+    page:    "fashionbass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.fashionbass/"
+#   download_size: ""
+    short_description:
+      "The bass sampled here <a href='http://www.killer.jp/killer/bass/kb_simmony_sw.html'>
+      looks odd with the shape which is a bit like a Rick bass that's been
+      flipped upside down and redrawn by a fashion designer,
+      and the big mirror pickguard</a>, but it's pretty much a typical Jazz bass
+      underneath all that."
+
+  - name:    "Growlybass"
+    page:    "growlybass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.growlybass/"
+#   download_size: ""
+    short_description:
+      "Squier Jazz bass."
+
   - name:    "Standard Bass"
     page:    "standard_bass"
     version: "2"
@@ -10,7 +34,7 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-bass"
     download_size: "233 MB"
     short_description: "Multi Articulation Bass"
-    use_details_page: true
+
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1Xp4p4l3qIkQM2kAZf6al0Lpo3NQpcRwk&export=download"
@@ -28,6 +52,17 @@ categories:
 #   download_size: ""
     short_description:
       "Squier Bass VI."
+
+  - name:    "Swagbass"
+    page:    "swagbass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.swagbass/"
+#   download_size: ""
+    short_description:
+      "The first insturment released under the Karoryfer Samples name is a simple
+      sample library of a bass guitar with fake Louis Vuitton fabric glued to it."
 
 - name: "Brass"
   page: "brass"
@@ -61,7 +96,7 @@ categories:
     short_description: "DrumGizmo DRSKit v1.0 sfz instrument port"
 
   - name:    "G1 Basic"
-    page:    "g1_basic"
+#   page:    "g1_basic"
 #   version: ""
     author:  "TKDrums"
 #   license: ""
@@ -113,7 +148,6 @@ categories:
     url:     "https://smmdrums.wordpress.com/for-sfz-sforzando/"
     download_size: "2.2+ GB"
     short_description: "Deeply Sampled Free Drums for the Masses."
-    use_details_page: true
     downloads:
     - label: "Drum Kit"
       url: "https://drive.google.com/file/d/1DHs_jQyNGfls6j3mvyO9F8DpK8vkySLa/view?usp=sharing"
@@ -121,7 +155,6 @@ categories:
 #     samplerate: ""
       size: "2.2 GB"
       short_description: ""
-
     - label: "Manual"
       url: "https://drive.google.com/file/d/0B8sahgYlFzKrLWFITU1hY0tSNE0/view?usp=sharing"
       size: "2.3 MB"
@@ -136,7 +169,6 @@ categories:
     download_size: "~370 MB"
     short_description:
       "A creative commons licenced drum library mapped with sfz"
-    use_details_page: true
     downloads:
     - label: "Drum Kit"
       url: "https://archive.org/download/SalamanderDrumkit/SalamanderDrumkit_archive.torrent"
@@ -156,7 +188,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/1912"
     download_size: "218 MB"
     short_description: "Physical 5 Strings"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1xOSOAQUgAHX_zbn4zn6KK0V8_LDR6a_W&export=download"
@@ -173,7 +204,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/koto"
     download_size: "212 MB"
     short_description: "13 Strings KOTO"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1gJLM4OhADQoTSusjra23xM1NIb2s5WFK&export=download"
@@ -185,6 +215,16 @@ categories:
 - name: "Guitars"
   page: "guitars"
   instruments:
+  - name:    "Emilyguitar"
+    page:    "emilyguitar"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.emilyguitar/"
+#   download_size: ""
+    short_description:
+      "A simple general-purpose guitar library."
+
   - name:    "Metal GTX"
     page:    "metal_gtx"
 #   version: ""
@@ -193,7 +233,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/metal-gtx"
     download_size: "1.3 GB"
     short_description: "Multi Articulation Electric Guitar"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1FurY3_x_tog_56irX1VDNyRCUt5JD7bO&export=download"
@@ -212,7 +251,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/the-slapper"
     download_size: "854 MB"
     short_description: "Slap Guitars"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1YmHJuK_98V4nBzahUX_o5XaJiy_hE_bU&export=download"
@@ -239,7 +277,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-guitar"
     download_size: "716 MB"
     short_description: "Multi Articulation Electric Guitar"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1uoV7icZV1_IjiOGKM7Wm5_K5UkF41Fm3&export=download"
@@ -251,6 +288,33 @@ categories:
 - name: "Misc"
   page: "misc"
   instruments:
+  - name:    "272 Merry Orks"
+    page:    "272_merry_orks"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+#   samplerate: ""
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/karoryfer.272-merry-orks/"
+#   download_size: ""
+    short_description:
+      "This is an early predecessor to Marie Ork. Before this, all of our sample
+      libraries were made because we wanted to use them for something."
+
+  - name:    "Ergo electric upright bass"
+    page:    "ergo"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+#   samplerate: ""
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/karoryfer.ergo/"
+#   download_size: ""
+    short_description:
+      "One huge solid stick of mahogany, four long and thick strings,
+      a piezo pickup and not much more - that's the Ergo electric upright bass
+      we sampled."
+
   - name:    "Versilian Community Sample Library"
     page:    "vcsl"
     version: "1.2.2"
@@ -262,7 +326,6 @@ categories:
       "General-purpose sample library for a set of quality samples suitable for
       use in software and media of all kinds.
       Intended to be a broader expansion to the VSCO 2 CE sample set."
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://github.com/sgossner/VCSL/archive/v1.2.2-RC.zip"
@@ -291,7 +354,6 @@ categories:
     short_description:
       "Sonatina Symphonic Orchestra (SSO) is a free library
       of sampled orchestral instruments."
-    use_details_page: true
 
   - name:    "VS Chamber Orchestra: Community Edition"
     page:    "vcso_ce"
@@ -301,7 +363,6 @@ categories:
     url:     "https://github.com/sgossner/VSCO-2-CE/releases"
     download_size: "2.3 GB"
     short_description: "An open-source orchestral library."
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://github.com/sgossner/VSCO-2-CE/archive/1.1.0.zip"
@@ -327,7 +388,6 @@ categories:
     short_description:
       "This is a full, free orchestral sample library featuring section and solo
       instruments for woodwinds, brass, strings and percussion."
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "http://virtualplaying.com/virtual-playing-orchestra/#download"
@@ -367,7 +427,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/epic-tom"
     download_size: "153 MB"
     short_description: "Hexadeca Tom"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1Fn72nQs--h9iVzJlP3rJjcvakA-b309h&export=download"
@@ -396,7 +455,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/kitchen-x"
     download_size: "169 MB"
     short_description: "Kitchen Percussion"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1MEdT-6Ihha_1ZEM2u08MzgVGHSIZ9ACU&export=download"
@@ -413,7 +471,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/wind-chime"
     download_size: "1006 MB"
     short_description: "Wind Chime Percussion"
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/open?id=1ZTifS6mozIfoMKYUydgDOUrFl700k6ed"
@@ -434,7 +491,6 @@ categories:
     download_size: "104 MB"
     short_description:
       "Steinway Model D recorded in a church in Glasgow."
-    use_details_page: true
 
   - name:    "Greg Sullivan E-Pianos"
     page:    "greg_sullivan_e-pianos"
@@ -476,6 +532,19 @@ categories:
     short_description:
       "Yamaha CF-3 Grand Piano."
 
+  - name:    "Scarypiano"
+    page:    "scarypiano"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url: "https://github.com/sfzinstruments/karoryfer.scarypiano/"
+#   download_size: ""
+    short_description:
+      "Scarypiano came about almost by accident - one of us was writing a review
+      of some <a href='https://dehumaniser.com/'>software that's designed to be
+      used for making monster voices for video and game post-production</a>,
+      and he tested its batch processing feature on some piano samples."
+
   - name:    "Splendid Grand Piano"
     page:    "splendid_grand_piano"
 #   version: ""
@@ -496,7 +565,6 @@ categories:
     short_description:
       "A Steinway Model B Grand Piano, sampled with five dynamic levels,
       two round robins, pedal on and off samples, and two mic positions."
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "magnet:?xt=urn:btih:4c1609b3098a309a32b6ce848dc3711b5182d9c9&dn=Ivy%20Audio%20-%20Piano%20in%20162%20sfz.zip&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce"
@@ -515,7 +583,6 @@ categories:
     short_description:
       "Yamaha C5, recorded with two AKG c414 disposed in an AB position ~12cm
       above the strings, 48kHz 24bit, 16 velocity layers."
-    use_details_page: true
     downloads:
     - label: "Instrument"
       url: "http://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPianoV3+20161209_48khz24bit.tar.xz"
@@ -544,6 +611,17 @@ categories:
     short_description:
       "A flexible cello."
 
+  - name:    "D. Smolken Double Bass"
+    page:    "dsmolken_double_bass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/dsmolken.double-bass/"
+#   download_size: ""
+    short_description:
+      "An earlier sample library from one of our developers,
+      available as a free download."
+
   - name:    "Meatbass"
     page:    "meatbass"
 #   version: ""
@@ -567,6 +645,18 @@ categories:
 - name: "Synthesizers"
   page: "synthesizers"
   instruments:
+  - name:    "Cowsynth"
+    page:    "cowsynth"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.cowsynth/"
+#   download_size: ""
+    short_description:
+      "For thousands of years, bagpipes have been the sonic terrorist's weapon
+      of choice. Cowsynth brings that terror to the 21st century by taking
+      samples of bagpipes and treating them as oscillators in a simple synthesizer."
+
   - name:    "Caveman Cosmonaut"
     page:    "caveman_cosmonaut"
 #   version: ""
@@ -581,7 +671,7 @@ categories:
 - name: "Woodwinds"
   page: "woodwinds"
   instruments:
-  - name: "Bear Sax"
+  - name:    "Bear Sax"
     page:    "bear_sax"
 #   version: ""
     author:  "Karoryfer Samples"
@@ -591,7 +681,18 @@ categories:
     short_description:
       "Samples of a very nice Conn baritone saxophone from 1926."
 
-  - name: "Weresax"
+  - name:    "Squidpipes"
+    page:    "squidpipes"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.squidpipes/"
+#   download_size: ""
+    short_description:
+      "A unique bagpipes library, using the mantle of a large squid as the bag,
+      PVC pipes which were trimmed to produce each new note, and an oboe reed."
+
+  - name:    "Weresax"
     page:    "weresax"
 #   version: ""
     author:  "Karoryfer Samples"

@@ -68,7 +68,6 @@ categories:
     download_size: "6 GB" # total download size to display in the pianos list
     short_description:
       "A great piano sample library in SFZ format."
-    use_details_page: true # used when having an instrument page, not used to link to the instrument website directly
     downloads:
     - label: "Instrument"
       url: "https://some_author.com/some_piano.zip"
