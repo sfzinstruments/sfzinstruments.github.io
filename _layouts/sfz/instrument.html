@@ -39,7 +39,16 @@ layout: "no_title"
 <table class="table table-sm table-hover table-striped table-responsive">
 	<tr class="table-bordered">
 		<th>Author</th>
-		<td>{{ instrument.author }}</td>
+				{%-for author in site.data.sfz.authors-%}
+					{%-if author.name == instrument.author-%}
+						{%-assign instrument_author = '<a href="' | append: author.url
+							| append: '">' | append: author.name | append: '</a>'-%}
+						{%-break-%}
+					{%-else-%}
+						{%-assign instrument_author = instrument.author-%}
+					{%-endif-%}
+				{%-endfor-%}
+		<td>{{ instrument_author }}</td>
 	</tr>
 				{%-if instrument.license-%}
 	<tr class="table-bordered">
