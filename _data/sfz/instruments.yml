@@ -19,6 +19,33 @@ categories:
       size: "233 MB"
       short_description: ""
 
+  - name:    "Pastabass"
+    page:    "pastabass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
+#   download_size: ""
+    short_description:
+      "Squier Bass VI."
+
+- name: "Brass"
+  page: "brass"
+  instruments:
+  - name:    "War Tuba"
+    page:    "war_tuba"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+#   samplerate: ""
+#   format:  ""
+    url:     "https://github.com/sfzinstruments/karoryfer.war-tuba/"
+#   download_size: ""
+    short_description:
+      "War Tuba is a tuba sample library created with the tuba player from
+      <a href='http://www.karoryfer.com/hanba'>
+      Hańba!, Karoryfer Lecolds' surprisingly successful folk-punk band</a>."
+
 - name: "Drums"
   page: "drums"
   instruments:
@@ -70,7 +97,7 @@ categories:
   - name:    "Sam's Sonor"
     page:    "sams_sonor"
 #   version: ""
-    author:  "Sam Greene'"
+    author:  "Sam Greene"
     license: "CC-BY-SA-4.0"
 #   samplerate: ""
     format:  "aiff"
@@ -193,6 +220,16 @@ categories:
       samplerate: "48"
       size: "854 MB"
       short_description: ""
+
+  - name:    "Shinyguitar"
+    page:    "shinyguitar"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.shinyguitar/"
+#   download_size: ""
+    short_description:
+      "A shiny black archtop guitar, and our first library to get a graphical user interface."
 
   - name:    "Standard Guitar"
     page:    "standard_guitar"
@@ -493,3 +530,73 @@ categories:
       samplerate: "44.1"
       size: "394 MB"
       short_description: ""
+
+- name: "Strings"
+  page: "strings"
+  instruments:
+  - name:    "Bigcat Cello"
+    page:    "bigcat_cello"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer-bigcat.cello/"
+#   download_size: ""
+    short_description:
+      "A flexible cello."
+
+  - name:    "Meatbass"
+    page:    "meatbass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.meatbass/"
+#   download_size: ""
+    short_description:
+      "1958 Otto Rubner acoustic double bass."
+
+  - name:    "String Cyborgs"
+    page:    "string_cyborgs"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.string-cyborgs/"
+#   download_size: ""
+    short_description:
+      "Part violin family, part machine."
+
+- name: "Synthesizers"
+  page: "synthesizers"
+  instruments:
+  - name:    "Caveman Cosmonaut"
+    page:    "caveman_cosmonaut"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-3.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.caveman-cosmonaut/"
+#   download_size: ""
+    short_description:
+      "A totally anachronistic synthesizer made from samples of a Unitra B 11
+      transistor organ made in Poland in 1983."
+
+- name: "Woodwinds"
+  page: "woodwinds"
+  instruments:
+  - name: "Bear Sax"
+    page:    "bear_sax"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.bear-sax/"
+#   download_size: ""
+    short_description:
+      "Samples of a very nice Conn baritone saxophone from 1926."
+
+  - name: "Weresax"
+    page:    "weresax"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.weresax/"
+#   download_size: ""
+    short_description:
+      "Alto saxophone sample library."

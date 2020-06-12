@@ -1,0 +1,32 @@
+- name: "Bengt Nilsson"
+  url: "http://www.bengtnilsson.com/"
+
+- name: "DrumGizmo Team"
+  url: "https://drumgizmo.org/wiki/doku.php"
+
+- name: "Greg Sullivan"
+  url: "http://www.sullivang.net/"
+
+- name: "Ivy Audio"
+  url: "http://ivyaudio.com/"
+
+- name: "Karoryfer Samples"
+  url: "https://www.karoryfer.com/karoryfer-samples/"
+
+- name: "Paul Battersby"
+  url: "http://virtualplaying.com/"
+
+- name: "Pianobook"
+  url: "https://www.pianobook.co.uk/"
+
+- name: "Scott McLean, Tod Stillwell, Suleiman Ali"
+  url: "https://smmdrums.wordpress.com/"
+
+- name: "TKDrums"
+  url: "https://tkd-sound.booth.pm/"
+
+- name: "Unreal Instruments"
+  url: "https://unreal-instruments.wixsite.com/unreal-instruments/"
+
+- name: "Versilian Studios LLC"
+  url: "https://vis.versilstudios.com/"
