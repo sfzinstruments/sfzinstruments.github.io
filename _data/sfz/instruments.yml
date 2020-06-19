@@ -285,6 +285,19 @@ categories:
       size: "716 MB"
       short_description: ""
 
+- name: "Keyboards"
+  page: "keyboards"
+  instruments:
+  - name:    "Sforzatron"
+    page:    "sforzatron"
+#   version: ""
+    author:  "Plogue"
+#   license: ""
+    url:     "https://www.plogue.com/products/sforzando-banks.html"
+#   download_size: ""
+    short_description:
+      "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
+
 - name: "Misc"
   page: "misc"
   instruments:
@@ -340,19 +353,6 @@ categories:
       samplerate: "44.1"
       size: "4.1 GB"
       short_description: "tar.gz archive"
-
-- name: "Keyboards"
-  page: "keyboards"
-  instruments:
-  - name:    "Sforzatron"
-    page:    "sforzatron"
-#   version: ""
-    author:  "Plogue"
-#   license: ""
-    url:     "https://www.plogue.com/products/sforzando-banks.html"
-#   download_size: ""
-    short_description:
-      "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
 
 - name: "Orchestra"
   page: "orchestra"
