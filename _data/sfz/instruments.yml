@@ -301,6 +301,38 @@ categories:
       size: "716 MB"
       short_description: ""
 
+- name: "Keyboards"
+  page: "keyboards"
+  instruments:
+  - name:    "Sforzatron"
+    page:    "sforzatron"
+#   version: ""
+    author:  "Plogue"
+#   license: ""
+    url:     "https://www.plogue.com/products/sforzando-banks.html"
+#   download_size: ""
+    short_description:
+      "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
+
+- name: "Melodic Percussion"
+  page: "melodic-percussion"
+  instruments:
+  - name:    "MSLP Vibes"
+    page:    "mslp_vibes"
+    author:  "Bandshed Records"
+    license: "CC-BY-3.0"
+    url:     "http://www.bandshed.net/sounds/sfz/"
+    download_size: "19 MB"
+    short_description:
+      "A sampled vibraphone, 3 octaves, one sample each note, one velocity layer."
+    downloads:
+    - label: "Instrument"
+      url: "http://www.bandshed.net/sounds/sfz/vibes.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "19 MB"
+      short_description: "Zipped file"
+
 - name: "Misc"
   page: "misc"
   instruments:
@@ -356,19 +388,6 @@ categories:
       samplerate: "44.1"
       size: "4.1 GB"
       short_description: "tar.gz archive"
-
-- name: "Keyboards"
-  page: "keyboards"
-  instruments:
-  - name:    "Sforzatron"
-    page:    "sforzatron"
-#   version: ""
-    author:  "Plogue"
-#   license: ""
-    url:     "https://www.plogue.com/products/sforzando-banks.html"
-#   download_size: ""
-    short_description:
-      "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
 
 - name: "Orchestra"
   page: "orchestra"
@@ -437,8 +456,8 @@ categories:
       size:   "360 KB"
       short_description: ""
 
-- name: "Percussions"
-  page: "percussions"
+- name: "Percussion"
+  page: "percussion"
   instruments:
   - name:    "Dim Cabasa"
     page:    "dim_cabasa"

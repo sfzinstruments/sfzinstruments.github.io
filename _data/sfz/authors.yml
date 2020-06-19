@@ -1,3 +1,6 @@
+- name: "Bandshed Records"
+  url: "http://www.bandshed.net/"
+
 - name: "Bengt Nilsson"
   url: "http://www.bengtnilsson.com/"
 
@@ -9,6 +12,9 @@
 
 - name: "Ivy Audio"
   url: "http://ivyaudio.com/"
+
+- name: "Markus Fiedler"
+  url: "https://www.fiedler-audio.de/"
 
 - name: "Karoryfer Samples"
   url: "https://www.karoryfer.com/karoryfer-samples/"
@@ -33,6 +39,3 @@
 
 - name: "Versilian Studios LLC"
   url: "https://vis.versilstudios.com/"
-
-- name: "Markus Fiedler"
-  url: "https://www.fiedler-audio.de/"
