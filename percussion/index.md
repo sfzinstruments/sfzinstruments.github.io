@@ -1,5 +1,5 @@
 ---
-title:  "Percussions"
+title:  "Percussion"
 layout: "no_title"
 ---
 {%-comment-%} See https://sfzinstruments.github.io/docs/adding-instruments {%-endcomment-%}

@@ -421,8 +421,8 @@ categories:
       size:   "360 KB"
       short_description: ""
 
-- name: "Percussions"
-  page: "percussions"
+- name: "Percussion"
+  page: "percussion"
   instruments:
   - name:    "Dim Cabasa"
     page:    "dim_cabasa"
