@@ -212,6 +212,22 @@ categories:
       size: "212 MB"
       short_description: ""
 
+  - name:    "MF Tin Whistle"
+    page:    "mf_tin_whistle"
+    version: "2.0"
+    author:  "Markus Fiedler"
+    license: "CC BY-NC-SA 3.0 (with modifications)"
+    url:     "https://www.fiedler-audio.de/creative-commons-library/"
+    download_size: "10 MB"
+    short_description: "A tin whistle in D with breath noises and ornamentations triggered via velocity layering."
+    downloads:
+    - label: "Instrument"
+      url: "http://www.fiedler-audio.de/cc-sounds/mf-tin-whistle2-ogg.zip"
+      format: "ogg vorbis"
+      samplerate: "44.1"
+      size: "10 MB"
+      short_description: "zip archive"
+
 - name: "Guitars"
   page: "guitars"
   instruments:
