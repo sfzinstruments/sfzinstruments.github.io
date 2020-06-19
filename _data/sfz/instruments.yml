@@ -298,6 +298,10 @@ categories:
     short_description:
       "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
 
+- name: "Melodic Percussion"
+  page: "melodic-percussion"
+  instruments: []
+
 - name: "Misc"
   page: "misc"
   instruments:
