@@ -26,6 +26,16 @@ categories:
     short_description:
       "Squier Jazz bass."
 
+  - name:    "Pastabass"
+    page:    "pastabass"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+    url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
+#   download_size: ""
+    short_description:
+      "Squier Bass VI."
+
   - name:    "Standard Bass"
     page:    "standard_bass"
     version: "2"
@@ -42,16 +52,6 @@ categories:
       samplerate: "44.1"
       size: "233 MB"
       short_description: ""
-
-  - name:    "Pastabass"
-    page:    "pastabass"
-#   version: ""
-    author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
-#   download_size: ""
-    short_description:
-      "Squier Bass VI."
 
   - name:    "Swagbass"
     page:    "swagbass"

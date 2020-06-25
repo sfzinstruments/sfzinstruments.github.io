@@ -15,7 +15,8 @@
 		</tr>
 	</thead>
 	<tbody>
-		{%-for instrument in category.instruments-%}
+		{%-assign instruments = category.instruments | sort: "name"-%}
+		{%-for instrument in instruments-%}
 			{%-if instrument.page-%}
 				{%-assign instrument_page = instruments_url | append: category.page |
 					append: '/' | append: instrument.page-%}
