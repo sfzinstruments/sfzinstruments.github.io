@@ -4,8 +4,6 @@ layout: "no_title"
 {%-comment-%}
 	Create a breadcrumbs like menu with <h1> and a <h2> instrument title link
 	to the external instrument page.
-	TODO: add some audio preview and details table after content, like direct
-	download link, samplerate and audio format type
 {%-endcomment-%}
 {%-assign instruments_url = "/" | relative_url-%}
 {%-assign instrument_page = page.name | replace: ".md", ''-%}
@@ -55,11 +53,29 @@ layout: "no_title"
 		<th>License</th>
 		<td>{{ instrument.license }}</td>
 	</tr>
+				{%-if instrument.download_size-%}
+	<tr class="table-bordered">
+		<th>Size</th>
+		<td>{{ instrument.download_size }}</td>
+	</tr>
+				{%-endif-%}
+				{%-endif-%}
+				{%-if instrument.format-%}
+	<tr class="table-bordered">
+		<th>Format</th>
+		<td>{{ instrument.format }}</td>
+	</tr>
+				{%-endif-%}
+				{%-if instrument.samplerate-%}
+	<tr class="table-bordered">
+		<th>Samplerate</th>
+		<td>{{ instrument.samplerate }}</td>
+	</tr>
 				{%-endif-%}
 				{%-if instrument.version-%}
 	<tr class="table-bordered">
 		<th>Version</th>
-		<td>v{{ instrument.version }}</td>
+		<td>{{ instrument.version }}</td>
 	</tr>
 				{%-endif-%}
 </table>
