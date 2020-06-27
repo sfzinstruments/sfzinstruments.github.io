@@ -36,6 +36,16 @@ categories:
     short_description:
       "Squier Bass VI."
 
+  - name:    "Rickenbacker 4001"
+    page:    "rickenbacker4001"
+    author:  "Project 16"
+    license: "CC-BY-NC-SA-3.0"
+    format: "wav"
+    url:     "https://github.com/sfzinstruments/Project16Rickenbacker4001/"
+    download_size: "508 MB"
+    short_description:
+      "Multisampled fingered, muted and slap patches."
+
   - name:    "Standard Bass"
     page:    "standard_bass"
     version: "2"
