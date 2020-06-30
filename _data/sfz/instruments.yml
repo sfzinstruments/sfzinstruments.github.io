@@ -139,6 +139,17 @@ categories:
 #   download_size: ""
     short_description: "DrumGizmo MuldjordKit v1.0 sfz instrument port"
 
+  - name:    "Naked Drums"
+    page:    "naked_drums"
+    author:  "Wilkinson Audio"
+    license: "CC-BY-NC-SA-4.0"
+    samplerate: "44.1"
+    format:  "flac"
+    url:     "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/"
+    download_size: "1.3 GB"
+    short_description:
+      "Multi-mics drumkit with 10 round-robins, up to 5 velocity layers and several mic layers"
+
   - name:    "Sam's Sonor"
     page:    "sams_sonor"
 #   version: ""
