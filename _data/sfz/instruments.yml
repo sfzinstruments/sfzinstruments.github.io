@@ -142,7 +142,7 @@ categories:
   - name:    "Naked Drums"
     page:    "naked_drums"
     author:  "Wilkinson Audio"
-    license: "CC-BY-NC-SA-4.0"
+    license: "CC-BY-4.0"
     samplerate: "44.1"
     format:  "flac"
     url:     "https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums/"
