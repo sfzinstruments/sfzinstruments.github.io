@@ -34,15 +34,15 @@ cards:
     icon_type: "rss"
     icon_category: "fas"
 
-- label: "Quick links"
-  icon_type: "link"
-  icon_category: "fas"
-  links:
   - label: "SFZ Format"
     url: "https://sfzformat.com/"
     icon_type: "book"
     icon_category: "fas"
 
+- label: "Downloads"
+  icon_type: "download"
+  icon_category: "fas"
+  links:
   - label: "Mappings"
     url: "https://github.com/sfzinstruments/mappings/"
     icon_type: "download"
@@ -50,5 +50,14 @@ cards:
 
   - label: "rgc:audio SFZ test suite"
     url: "https://github.com/sfz/tests/"
+    icon_type: "download"
+    icon_category: "fas"
+
+- label: "External"
+  icon_type: "link"
+  icon_category: "fas"
+  links:
+  - label: "Freepats Sound Banks"
+    url: "https://freepats.zenvoid.org/"
     icon_type: "download"
     icon_category: "fas"
