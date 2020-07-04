@@ -40,7 +40,7 @@ categories:
     page:    "rickenbacker4001"
     author:  "Project 16"
     license: "CC-BY-NC-SA-3.0"
-    format: "wav"
+    format:  "wav"
     url:     "https://github.com/sfzinstruments/Project16Rickenbacker4001/"
     download_size: "508 MB"
     short_description:
@@ -749,6 +749,18 @@ categories:
 #   download_size: ""
     short_description:
       "Samples of a very nice Conn baritone saxophone from 1926."
+
+  - name:    "Ixox Flute"
+    page:    "ixox_flute"
+#   version: ""
+    author:  "Xavier Hosxe"
+    license: "CC-BY-4.0"
+    samplerate: "44.1"
+    format:  "flac"
+    url:     "https://github.com/sfzinstruments/Ixox.Flute/"
+    download_size: "10.7 MB"
+    short_description:
+      "sfz version of the Xavier Hosxe's VSTi plugin."
 
   - name:    "Squidpipes"
     page:    "squidpipes"
