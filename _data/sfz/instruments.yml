@@ -384,6 +384,18 @@ categories:
       a piezo pickup and not much more - that's the Ergo electric upright bass
       we sampled."
 
+  - name:    "Ethan Winer Collection"
+    page:    "ethan_winer"
+#   version: ""
+    author:  "Ethan Winer"
+#   license: ""
+#   samplerate: ""
+    format:  "flac"
+    url:     "https://github.com/sfzinstruments/EthanWiner.Soundfonts/"
+    download_size: "17 MB"
+    short_description:
+      "A small-size instruments collection."
+
   - name:    "Versilian Community Sample Library"
     page:    "vcsl"
     version: "1.2.2"
