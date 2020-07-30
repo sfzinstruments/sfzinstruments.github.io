@@ -386,10 +386,8 @@ categories:
 
   - name:    "Ethan Winer Collection"
     page:    "ethan_winer"
-#   version: ""
     author:  "Ethan Winer"
-#   license: ""
-#   samplerate: ""
+    license: "Public Domain"
     format:  "flac"
     url:     "https://github.com/sfzinstruments/EthanWiner.Soundfonts/"
     download_size: "17 MB"
