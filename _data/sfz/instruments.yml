@@ -772,6 +772,18 @@ categories:
     short_description:
       "sfz version of the Xavier Hosxe's VSTi plugin."
 
+  - name:    "MTG Solo Sax"
+    page:    "mtg_solo_sax"
+#   version: ""
+    author:  "Music Technology Group (MTG)"
+    license: "CC-BY-4.0"
+    samplerate: "48"
+    format:  "flac"
+    url:     "https://github.com/sfzinstruments/MTG.SoloSax/"
+    download_size: "110 MB"
+    short_description:
+      "A complete set of Soprano, Alto, Tenor and Baritone solo saxophones."
+
   - name:    "Squidpipes"
     page:    "squidpipes"
 #   version: ""
