@@ -252,6 +252,16 @@ categories:
 - name: "Guitars"
   page: "guitars"
   instruments:
+  - name:    "Kay 5-String Banjo"
+    page:    "kay_5_string_banjo"
+    author:  "FlameStudios"
+    license: "GPL-3.0-or-later"
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/FlameStudios.Kay5StringBanjo/"
+    download_size: "425 MB"
+    short_description:
+      "A 5 string closed back banjo."
+
   - name:    "Emilyguitar"
     page:    "emilyguitar"
 #   version: ""
@@ -393,6 +403,16 @@ categories:
     download_size: "17 MB"
     short_description:
       "A small-size instruments collection."
+
+  - name:    "G-Town Church Sampling Project"
+    page:    "g-town_church_sampling_project"
+    author:  "Tobias Marberger"
+    license: "CC Sampling Plus 1.0"
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/GTownChurchSamplingProject/"
+    download_size: "750 MB"
+    short_description:
+      "Set of music samples recorded in a local church in Grebbestad, Sweden."
 
   - name:    "Versilian Community Sample Library"
     page:    "vcsl"
