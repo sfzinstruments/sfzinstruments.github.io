@@ -2,12 +2,6 @@ navigation:
 - label: "News"
   url: "/news"
 
-- label: "Docs"
-  type: "dropdown"
-  pages:
-  - label: "Add Instruments"
-    url: "/docs/adding-instruments"
-
 cards:
 - label: "Follow us"
   icon_type: "eye"
