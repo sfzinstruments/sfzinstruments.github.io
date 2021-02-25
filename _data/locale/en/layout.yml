@@ -1,6 +1,6 @@
-navigation:
-- label: "News"
-  url: "/news"
+#navigation:
+#- label: "News"
+#  url: "/news"
 
 cards:
 - label: "Follow us"
