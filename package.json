@@ -5,11 +5,11 @@
 	"homepage": "https://sfzinstruments.github.io/",
 	"scripts": {
 		"css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
-		"css-compile": "node node_modules/node-sass/bin/node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 _assets/scss/style.scss assets/css/style.css",
+		"css-compile": "node node_modules/sass/sass --style=expanded _assets/scss/style.scss assets/css/style.css",
 		"css-prefix": "node node_modules/postcss-cli/bin/postcss --use autoprefixer --replace \"assets/css/*.css\" \"!assets/css/*.min.css\"",
-		"css-minify": "node node_modules/clean-css-cli/bin/cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/style.min.css node_modules/bootstrap/dist/css/bootstrap.min.css assets/css/style.css",
+		"css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --with-rebase --source-map --source-map-inline-sources --output assets/css/style.min.css assets/css/style.css",
 		"js": "node node_modules/npm-run-all/bin/run-s/index.js js-minify",
-		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js _assets/js/*.js",
+		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/bootstrap-table/dist/bootstrap-table.min.js _assets/js/*.js",
 		"dist": "node node_modules/npm-run-all/bin/run-p/index.js css js"
 	},
 	"browserslist": [
@@ -24,22 +24,19 @@
 	},
 	"license": "MPL-2.0",
 	"engines": {
-		"node": ">= 6.9.0"
+		"node": ">= 10.13.0"
 	},
 	"dependencies": {
-		"autoprefixer": "^8.2.0",
-		"bootstrap": "^4.0.0",
-		"clean-css-cli": "^4.1.11",
-		"globby": "^9.0.0",
-		"jquery": "^3.4.1",
-		"node-sass": "^4.8.3",
-		"npm-run-all": "^4.1.2",
-		"popper.js": "^1.14.1",
-		"postcss-cli": "^6.1.2",
-		"sass": "^1.14.3",
-		"uglify-js": "^3.3.16"
-	},
-	"devDependencies": {
-		"postcss-loader": "^3.0.0"
+		"autoprefixer": "^10.3.6",
+		"bootstrap": "4.6.1",
+		"bootstrap-table": "1.19.1",
+		"clean-css-cli": "^5.3.3",
+		"jquery": ">=3.5.0",
+		"npm-run-all": "^4.1.5",
+		"popper.js": "^1.16.1",
+		"postcss": "^8.0.0",
+		"postcss-cli": "^8.0.0",
+		"sass": "^1.42.1",
+		"uglify-js": "^3.14.2"
 	}
 }
