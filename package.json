@@ -29,7 +29,7 @@
 	"dependencies": {
 		"autoprefixer": "^10.3.6",
 		"bootstrap": "4.6.1",
-		"bootstrap-table": "1.19.1",
+		"bootstrap-table": "1.20.2",
 		"clean-css-cli": "^5.3.3",
 		"jquery": ">=3.5.0",
 		"npm-run-all": "^4.1.5",
