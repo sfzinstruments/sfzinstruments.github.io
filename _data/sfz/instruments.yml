@@ -276,7 +276,7 @@ categories:
     page:    "metal_gtx"
 #   version: ""
     author:  "Unreal Instruments"
-    license: "Public Domain"
+    license: "Custom"
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/metal-gtx"
     download_size: "1.3 GB"
     short_description: "Multi Articulation Electric Guitar"
