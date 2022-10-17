@@ -364,6 +364,23 @@ categories:
       size: "19 MB"
       short_description: "Zipped file"
 
+  - name:    "Terkelsen's Marimba"
+    page:    "terkelsen_marimba"
+#   version: "1"
+    author:  "Lars Terkelsen, S Christian Collins"
+#   license: "unknown"
+    url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
+    download_size: "50 MB"
+    short_description:
+      "Marimba sampled in stereo with 3 velocity layers, every note sampled.  Converted from the original GigaSampler version by S. Christian Collins www.schristiancollins.com"
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
+      format: "wav (16bit)"
+      samplerate: "44.1 kHz"
+      size: "50 MB"
+      short_description: "zipped sfz"
+
 - name: "Misc"
   page: "misc"
   instruments:
