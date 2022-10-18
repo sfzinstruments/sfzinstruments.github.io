@@ -377,7 +377,7 @@ categories:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
       format: "wav (16bit)"
-      samplerate: "44.1 kHz"
+      samplerate: "44.1"
       size: "50 MB"
       short_description: "zipped sfz"
 
@@ -637,6 +637,33 @@ categories:
     download_size: "18 MB"
     short_description:
       "1977 Rhodes Mark I Stage 73, looped"
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
+      format: "flac (16bit)"
+      samplerate: 44.1"
+      size: "18 MB"
+      short_description: ""
+
+  - name:    "jRhodes3d"
+    page:    "jrhodes3d"
+#   version: ""
+    author:  "Jeff Learman"
+    license: "CC-BY-NC-4.0"
+    url:     "https://github.com/sfzinstruments/jlearman.jRhodes3d/"
+    download_size: "92 MB"
+    short_description:
+      "1977 Rhodes Mark I Stage 73, unlooped, with velocity crossfade option.
+      License for samples: CC-BY-NC
+      License for everything else: CC0
+      License for musicians using this to make music: CC0"
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/jlearman.jRhodes3d/archive/refs/heads/master.zip"
+      format: "flac (16bit)"
+      samplerate: 44.1"
+      size: "92 MB"
+      short_description: ""
 
   - name:    "Maestro Concert Grand Piano"
     page:    "maestro_concert_grand_piano"

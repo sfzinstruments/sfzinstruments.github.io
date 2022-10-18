@@ -13,8 +13,11 @@ jRhodes3 is my sampling of my 1977 Rhodes Mark I Stage 73 electric piano, which 
 
 The set includes 67 16-bit samples, with up to 5 velocity layers, sampling every 4th white key. The samples were recorded directly from the harp connector. Samples are encoded in lossless FLAC format to reduce disk space.
 
-## jRhodes3c version
+## jRhodes3d version
 
-This is a looped version, with stereo and stereo vibrato options. Samples are looped after a few seconds, to save memory and disk space.
+jRhodes3d has UNlooped full-length samples (up to 25 sec), with mono and two stereo effect options. In each case, it's provided with and without velocity crossfade. (Velocity crossfade blends velocity layers to make timbre transition more smoothly with velocity. However, this also causes some phase issues in low notes, so you get your choice.)
 
-The stereo effect is a mild pitch-shift doubling to create a stereo image, applied in mid-side effect so that it cancels out when summed to mono.
+    The stereo effect is a mild pitch-shift doubling to create a stereo image, applied in mid-side effect so that it cancels out when summed to mono.
+    The stereo vibrato effect is similar to the classic Suitcase Rhodes stereo vibrato, except that the vibrato applies to each note individually rather than the whole mix. This makes it sound very different from the classic effect, but nonetheless it's a very interesting effect.
+
+The width for either of these effects is controlled via the MOD wheel. MOD wheel at zero is mono; at 50% gives 100% stereo, and pushed higher you get "extra stereo."
