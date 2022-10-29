@@ -6,7 +6,7 @@ source "https://rubygems.org"
 # - https://docs.travis-ci.com/user/languages/ruby/#default-build-script
 # - https://github.com/travis-ci/travis-web/blob/master/Gemfile
 
-ruby "2.7.1"
+ruby ">= 2.7.0", "<= 2.7.6"
 group :development, :test do
   gem "rake", "~> 12"
 end
