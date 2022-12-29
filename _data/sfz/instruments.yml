@@ -15,13 +15,6 @@ categories:
       flipped upside down and redrawn by a fashion designer,
       and the big mirror pickguard</a>, but it's pretty much a typical Jazz bass
       underneath all that."
-    audio: https://sfzinstruments.github.io/assets/audio/basses/fashionbass.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/fashionbass.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.fashionbass/releases/download/v1.001/Karoryfer.Fashionbass.v1.001.zip"
@@ -39,13 +32,6 @@ categories:
     download_size: "160 MB"
     short_description:
       "Squier Jazz bass."
-    audio: https://sfzinstruments.github.io/assets/audio/basses/growlybass.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/growlybass.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.growlybass/releases/download/v1.002/Karoryfer.Growlybass.v1.002.zip"
@@ -63,13 +49,6 @@ categories:
     download_size: "301 MB"
     short_description:
       "Squier Bass VI."
-    audio: https://sfzinstruments.github.io/assets/audio/basses/pastabass.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/pastabass.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.pastabass/releases/download/v1.101/Karoryfer.Pastabass.v1.101.zip"
@@ -88,13 +67,6 @@ categories:
     download_size: "508 MB"
     short_description:
       "Multisampled fingered, muted and slap patches."
-    audio: https://sfzinstruments.github.io/assets/audio/basses/rickenbacker4001.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/rickenbacker4001.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
 
   - name:    "Standard Bass"
     page:    "standard_bass"
@@ -104,13 +76,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-bass"
     download_size: "233 MB"
     short_description: "Multi Articulation Bass"
-    audio: https://sfzinstruments.github.io/assets/audio/basses/standard_bass.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/standard_bass.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1Xp4p4l3qIkQM2kAZf6al0Lpo3NQpcRwk&export=download"
@@ -129,13 +94,6 @@ categories:
     short_description:
       "The first instrument released under the Karoryfer Samples name is a simple
       sample library of a bass guitar with fake Louis Vuitton fabric glued to it."
-    audio: https://sfzinstruments.github.io/assets/audio/basses/swagbass.mp3
-    image: https://sfzinstruments.github.io/assets/img/basses/swagbass.jpg
-    cost: 0
-    compatibility:
-      - Bassmidi
-      - sforzando
-      - sfizz
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.swagbass/releases/download/v1.001/Karoryfer.Swagbass.v1.001.zip"
