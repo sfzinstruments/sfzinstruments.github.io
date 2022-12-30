@@ -4,40 +4,62 @@ categories:
   instruments:
   - name:    "Fashionbass"
     page:    "fashionbass"
-#   version: ""
+    version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
     url:     "https://github.com/sfzinstruments/karoryfer.fashionbass/"
-#   download_size: ""
+    download_size: "302 MB"
     short_description:
       "The bass sampled here <a href='http://www.killer.jp/killer/bass/kb_simmony_sw.html'>
       looks odd with the shape which is a bit like a Rick bass that's been
       flipped upside down and redrawn by a fashion designer,
       and the big mirror pickguard</a>, but it's pretty much a typical Jazz bass
       underneath all that."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.fashionbass/releases/download/v1.001/Karoryfer.Fashionbass.v1.001.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "302 MB"
+      short_description: ""
 
   - name:    "Growlybass"
     page:    "growlybass"
-#   version: ""
+    version: "1.002"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
     url:     "https://github.com/sfzinstruments/karoryfer.growlybass/"
-#   download_size: ""
+    download_size: "160 MB"
     short_description:
       "Squier Jazz bass."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.growlybass/releases/download/v1.002/Karoryfer.Growlybass.v1.002.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "160 MB"
+      short_description: ""
 
   - name:    "Pastabass"
     page:    "pastabass"
-#   version: ""
+    version: "1.101"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
     url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
-#   download_size: ""
+    download_size: "301 MB"
     short_description:
       "Squier Bass VI."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.pastabass/releases/download/v1.101/Karoryfer.Pastabass.v1.101.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "301 MB"
+      short_description: ""
 
   - name:    "Rickenbacker 4001"
     page:    "rickenbacker4001"
+    version: "1"
     author:  "Project 16"
     license: "CC-BY-NC-SA-3.0"
     format:  "wav"
@@ -54,7 +76,6 @@ categories:
     url:     "https://unreal-instruments.wixsite.com/unreal-instruments/standard-bass"
     download_size: "233 MB"
     short_description: "Multi Articulation Bass"
-
     downloads:
     - label: "Instrument"
       url: "https://drive.google.com/uc?id=1Xp4p4l3qIkQM2kAZf6al0Lpo3NQpcRwk&export=download"
@@ -65,31 +86,43 @@ categories:
 
   - name:    "Swagbass"
     page:    "swagbass"
-#   version: ""
+    version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
     url:     "https://github.com/sfzinstruments/karoryfer.swagbass/"
-#   download_size: ""
+    download_size: "138 MB"
     short_description:
-      "The first insturment released under the Karoryfer Samples name is a simple
+      "The first instrument released under the Karoryfer Samples name is a simple
       sample library of a bass guitar with fake Louis Vuitton fabric glued to it."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.swagbass/releases/download/v1.001/Karoryfer.Swagbass.v1.001.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "138 MB"
+      short_description: ""
 
 - name: "Brass"
   page: "brass"
   instruments:
   - name:    "War Tuba"
     page:    "war_tuba"
-#   version: ""
+    version: "1.002"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
-#   samplerate: ""
-#   format:  ""
     url:     "https://github.com/sfzinstruments/karoryfer.war-tuba/"
-#   download_size: ""
+    download_size: "104 MB"
     short_description:
       "War Tuba is a tuba sample library created with the tuba player from
       <a href='http://www.karoryfer.com/hanba'>
       Hańba!, Karoryfer Lecolds' surprisingly successful folk-punk band</a>."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "104 MB"
+      short_description: ""
 
 - name: "Drums"
   page: "drums"
@@ -118,15 +151,21 @@ categories:
 
   - name:    "Gogodze Phu Vol II"
     page:    "gogodze_phu_vol_ii"
-#   version: ""
+    version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
-#   samplerate: ""
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/"
-#   download_size: ""
+    download_size: "133 MB"
     short_description:
       "A variable fidelity drum kit - lo-fi, hi-fi or anywhere inbetween."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/releases/download/v1.001/Karoryfer_Gogodze_Phu_vol_II.v1.001.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "133 MB"
+      short_description: ""
 
   - name:    "Muldjord Kit"
     page:    "muldjord_kit"
