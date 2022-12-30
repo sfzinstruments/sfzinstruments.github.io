@@ -151,15 +151,21 @@ categories:
 
   - name:    "Gogodze Phu Vol II"
     page:    "gogodze_phu_vol_ii"
-#   version: ""
+    version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
-#   samplerate: ""
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/"
-#   download_size: ""
+    download_size: "133 MB"
     short_description:
       "A variable fidelity drum kit - lo-fi, hi-fi or anywhere inbetween."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/releases/download/v1.001/Karoryfer_Gogodze_Phu_vol_II.v1.001.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "133 MB"
+      short_description: ""
 
   - name:    "Muldjord Kit"
     page:    "muldjord_kit"
