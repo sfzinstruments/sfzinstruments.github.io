@@ -107,17 +107,22 @@ categories:
   instruments:
   - name:    "War Tuba"
     page:    "war_tuba"
-#   version: ""
+    version: "1.002"
     author:  "Karoryfer Samples"
     license: "CC-BY-4.0"
-#   samplerate: ""
-#   format:  ""
     url:     "https://github.com/sfzinstruments/karoryfer.war-tuba/"
-#   download_size: ""
+    download_size: "104 MB"
     short_description:
       "War Tuba is a tuba sample library created with the tuba player from
       <a href='http://www.karoryfer.com/hanba'>
       Hańba!, Karoryfer Lecolds' surprisingly successful folk-punk band</a>."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.war-tuba/releases/download/v1.002/Karoryfer_War_Tuba_v1002.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "104 MB"
+      short_description: ""
 
 - name: "Drums"
   page: "drums"
