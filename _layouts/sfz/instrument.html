@@ -6,33 +6,47 @@ layout: "no_title"
 	to the external instrument page.
 {%-endcomment-%}
 {%-assign instruments_url = "/" | relative_url-%}
-{%-assign instrument_page = page.name | replace: ".md", ''-%}
-{%-assign category_page   = page.dir  | split: '/' | last-%}
+{%-assign instrument_id   = page.name | replace: ".md", ''-%}
+{%-assign category_id     = page.dir  | split: '/' | last-%}
+
 {%-for category in site.data.sfz.instruments.categories-%}
-	{%-if category.page == category_page-%}
+	{%-if category.page == category_id-%}
 		{%-for instrument in category.instruments-%}
-			{%-assign category_url = instruments_url | append: category_page | append: '/'-%}
-			{%-if instrument.page == instrument_page-%}
-<h1><a href="{{ instruments_url }}">Instruments</a> | <a href="{{ category_url }}">
-	{{ category.name }}</a></h1>
-<h2><a href="{{ instrument.url }}">{{ instrument.name }}</a></h2>
-<p>{{ instrument.short_description }}</p>
-{{ content }}
-{%-comment-%}
-	Add audio example if any
-{%-endcomment-%}
-				{%-assign audio_example = "/assets/audio/" | append: category_page |
-					append: '/' | append: instrument_page | append: ".mp3"-%}
+			{%-assign category_url = instruments_url | append: category_id | append: '/'-%}
+			{%-if instrument.page == instrument_id-%}
+
+				{%-assign audio_example = "/assets/audio/" | append: category_id |
+					append: '/' | append: instrument_id | append: ".mp3"-%}
+
+				{%-assign image_preview = "/assets/img/" | append: category_id |
+					append: '/' | append: instrument_id | append: ".jpg"-%}
+
 				{%-for static_file in site.static_files-%}
 					{%-if static_file.path == audio_example-%}
 						{%-assign have_audio_example = true-%}
-						{%-break-%}
+					{%-endif-%}
+					{%-if static_file.path == image_preview-%}
+						{%-assign have_image_preview = true-%}
 					{%-endif-%}
 				{%-endfor-%}
+
+<h1><a href="{{ instruments_url }}">Instruments</a> | <a href="{{ category_url }}">{{ category.name }}</a></h1>
+<h2><a href="{{ instrument.url }}">{{ instrument.name }}</a></h2>
+
+{%-comment-%} Add audio example and/or image preview if any {%-endcomment-%}
+
+				{%if have_image_preview%}
+<p><img src="{{ image_preview | absolute_url }}" class="img-fluid" /></p>
+				{%endif%}
+
+<p>{{ instrument.short_description }}</p>
+{{ content }}
+
 				{%-if have_audio_example-%}
 <h2 id="audio_example">Audio Example</h2>
 <audio src="{{ audio_example | absolute_url }}" controls preload></audio>
 				{%-endif-%}
+
 <h2 id="info">Info</h2>
 <table class="table table-sm table-hover table-striped table-responsive">
 	<tr class="table-bordered">
