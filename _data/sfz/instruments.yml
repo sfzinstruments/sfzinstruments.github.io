@@ -102,6 +102,17 @@ categories:
       size: "138 MB"
       short_description: ""
 
+
+  - name:    "Vengeful Bass"
+    page:    "vengeful_bass"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    url:     "https://shop.karoryfer.com/products/vengeful-bass"
+    download_size: "2.2 GB"
+    short_description:
+      "Double bass with a wide range of extended techniques."
+
 - name: "Brass"
   page: "brass"
   instruments:
