@@ -702,6 +702,16 @@ categories:
     download_size: "7.6 GB"
     short_description:
       "A medieval-fantasy collection with a goblin theme."
+            
+  - name:    "The Halfling"
+    page:    "the_halfling"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/the-halfling-for-sforzando/"
+#   download_size: ""
+    short_description:
+      "Upright piano plus soundscapes. Compact sforzando version of larger Kontakt library."
 
 - name: "Orchestra"
   page: "orchestra"
@@ -997,6 +1007,76 @@ categories:
       size: "394 MB"
       short_description: ""
 
+  - name:    "PiAnnette"
+    page:    "piannette"
+#   version: ""
+    author:  "fisound"
+    license: "Commercial"
+    url:     "https://fisound.com/products/piannette-electric-piano-library"
+    download_size: "350 MB"
+    short_description:
+      "A Hohner PianetT electric piano."
+
+  - name:    "Concert Grand Compact"
+    page:    "concert_grand_compact"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/concert-grand-compact/"
+#   download_size: ""
+    short_description:
+      "Steinway Model D. Compact sforzando version of larger Kontakt library."
+      
+  - name:    "Death Piano"
+    page:    "death_piano"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/death-piano-sforzando/"
+#    download_size: ""
+    short_description:
+      "Processed piano. Also available in a Kontakt version."
+
+  - name:    "Production Grand Compact"
+    page:    "production_grand_compact"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/production-grand-compact/"
+#   download_size: ""
+    short_description:
+      "Yamaha C7. Compact sforzando version of larger Kontakt library."
+      
+  - name:    "Estate Grand"
+    page:    "estate_grand"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/estate-grand-for-sforzando/"
+    download_size: "3.9 GB"
+    short_description:
+      "Kawai GS 60."
+       
+  - name:    "Estate Grand LE"
+    page:    "estate_grand_le"
+#   version: ""
+    author:  "Production Voices"
+#   license: ""
+    url:     "https://www.productionvoices.com/estate-grand-le-for-sforzando/"
+    download_size: "650 MB"
+    short_description:
+      "Kawai GS 60. Free version of Estate Grand"
+
+  - name:    "Electric V"
+    page:    "electric_v"
+#   version: ""
+    author:  "Production Voices"
+    license: "Commercial"
+    url:     "https://www.productionvoices.com/product/electric-v/"
+#   download_size: ""
+    short_description:
+      "Classic electric piano."
+      
 - name: "Strings"
   page: "strings"
   instruments:
