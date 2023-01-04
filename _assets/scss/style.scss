@@ -3,6 +3,7 @@ $navbar-dark-color: rgba(#fff, .75);
 $navbar-dark-hover-color: #fff;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-table/dist/bootstrap-table.css";
 @import "syntax-highlight";
 /*
 pre {

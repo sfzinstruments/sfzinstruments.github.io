@@ -3,12 +3,14 @@
 	{%-assign page_name = page.dir | split: '/' | last-%}
 	{%-if page_name == category.page -%}
 <h1><a href="{{ instruments_url }}">Instruments</a> | {{ category.name }}</h1>
-<table class="table table-sm table-bordered table-hover table-striped table-responsive-xl">
+<table class="table table-sm table-bordered table-hover table-striped table-responsive-xl"
+	id="table-instruments"
+	data-toggle="table">
 	<thead class="thead-dark">
 		<tr>
-			<th scope="col">Name</th>
-			<th scope="col">Author</th>
-			<th scope="col">License</th>
+			<th scope="col" data-sortable="true">Name</th>
+			<th scope="col" data-sortable="true">Author</th>
+			<th scope="col" data-sortable="true">License</th>
 			<th scope="col">Version</th>
 			<th scope="col">Description</th>
 			<th scope="col">Download Size</th>
