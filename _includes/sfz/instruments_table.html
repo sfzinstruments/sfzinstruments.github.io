@@ -5,15 +5,16 @@
 <h1><a href="{{ instruments_url }}">Instruments</a> | {{ category.name }}</h1>
 <table class="table table-sm table-bordered table-hover table-striped table-responsive-xl"
 	id="table-instruments"
-	data-toggle="table">
+	data-toggle="table"
+	data-filter-control="true">
 	<thead class="thead-dark">
 		<tr>
-			<th scope="col" data-sortable="true">Name</th>
-			<th scope="col" data-sortable="true">Author</th>
-			<th scope="col" data-sortable="true">License</th>
-			<th scope="col">Version</th>
-			<th scope="col">Description</th>
-			<th scope="col">Download Size</th>
+			<th data-field="name"    data-sortable="true">Name</th>
+			<th data-field="author"  data-sortable="true" data-filter-control="select">Author</th>
+			<th data-field="license" data-sortable="true" data-filter-control="select">License</th>
+			<th>Version</th>
+			<th>Description</th>
+			<th>Download Size</th>
 		</tr>
 	</thead>
 	<tbody>

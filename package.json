@@ -9,7 +9,7 @@
 		"css-prefix": "node node_modules/postcss-cli/bin/postcss --use autoprefixer --replace \"assets/css/*.css\" \"!assets/css/*.min.css\"",
 		"css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --with-rebase --source-map --source-map-inline-sources --output assets/css/style.min.css assets/css/style.css",
 		"js": "node node_modules/npm-run-all/bin/run-s/index.js js-minify",
-		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/bootstrap-table/dist/bootstrap-table.min.js _assets/js/*.js",
+		"js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=scripts.min.js.map\" --output assets/js/scripts.min.js node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/bootstrap-table/dist/bootstrap-table.min.js node_modules/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min.js _assets/js/*.js",
 		"dist": "node node_modules/npm-run-all/bin/run-p/index.js css js"
 	},
 	"browserslist": [
