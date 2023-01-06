@@ -159,21 +159,21 @@ categories:
       "An oversized drum kit from 1980s Poland."
 
   - name:	 "BJDNielPercussions"
-	page:	 "bjdnielpercussions"
-	version: "1.0.0"
-	author:  "Yi Yunseok"
-	license: "CC-BY-4.0"
-	url:	 "https://YGGDRASIL-STUDIO.github.io/BJDNielSounds/BJDNielPercussions/"
-	download_size: "4.4 MB"
-	short_description:
-	  "BJDNielPercussions is one of the BJDNielSounds collection created with Ball-Jointed Doll Niel."
-	downloads:
-	- label: "BJDNielPercussions"
-	  url: "https://github.com/YGGDRASIL-STUDIO/BJDNielSounds/releases/download/v1.0.0/BJDNielPercussions.tar.gz"
-	  format: "wav"
-	  samplerate: "192"
-	  size: "4.4 MB"
-	  short_description: "TAR.GZ Archive"
+    page:	 "bjdnielpercussions"
+    version: "1.0.0"
+    author:  "Yi Yunseok"
+    license: "CC-BY-4.0"
+    url:	 "https://YGGDRASIL-STUDIO.github.io/BJDNielSounds/BJDNielPercussions/"
+    download_size: "4.4 MB"
+    short_description:
+      "BJDNielPercussions is one of the BJDNielSounds collection created with Ball-Jointed Doll Niel."
+    downloads:
+    - label: "BJDNielPercussions"
+      url: "https://github.com/YGGDRASIL-STUDIO/BJDNielSounds/releases/download/v1.0.0/BJDNielPercussions.tar.gz"
+      format: "wav"
+      samplerate: "192"
+      size: "4.4 MB"
+      short_description: "TAR.GZ Archive"
 
   - name:    "DRS Kit"
     page:    "drs_kit"
