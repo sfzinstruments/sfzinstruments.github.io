@@ -158,12 +158,12 @@ categories:
     short_description:
       "An oversized drum kit from 1980s Poland."
 
-  - name:	 "BJDNielPercussions"
-    page:	 "bjdnielpercussions"
+  - name:    "BJDNielPercussions"
+    page:    "bjdnielpercussions"
     version: "1.0.0"
     author:  "Yi Yunseok"
     license: "CC-BY-4.0"
-    url:	 "https://YGGDRASIL-STUDIO.github.io/BJDNielSounds/BJDNielPercussions/"
+    url:     "https://YGGDRASIL-STUDIO.github.io/BJDNielSounds/BJDNielPercussions/"
     download_size: "4.4 MB"
     short_description:
       "BJDNielPercussions is one of the BJDNielSounds collection created with Ball-Jointed Doll Niel."
