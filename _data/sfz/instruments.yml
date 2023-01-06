@@ -147,6 +147,34 @@ categories:
 - name: "Drums"
   page: "drums"
   instruments:
+  - name:    "Big Rusty Drums"
+    page:    "big_rusty_drums"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/big-rusty-drums"
+    download_size: "2.3 GB"
+    short_description:
+      "An oversized drum kit from 1980s Poland."
+
+  - name:	 "BJDNielPercussions"
+	page:	 "bjdnielpercussions"
+	version: "1.0.0"
+	author:  "Yi Yunseok"
+	license: "CC-BY-4.0"
+	url:	 "https://YGGDRASIL-STUDIO.github.io/BJDNielSounds/BJDNielPercussions/"
+	download_size: "4.4 MB"
+	short_description:
+	  "BJDNielPercussions is one of the BJDNielSounds collection created with Ball-Jointed Doll Niel."
+	downloads:
+	- label: "BJDNielPercussions"
+	  url: "https://github.com/YGGDRASIL-STUDIO/BJDNielSounds/releases/download/v1.0.0/BJDNielPercussions.tar.gz"
+	  format: "wav"
+	  samplerate: "192"
+	  size: "4.4 MB"
+	  short_description: "TAR.GZ Archive"
+
   - name:    "DRS Kit"
     page:    "drs_kit"
     version: "1.0"
@@ -157,6 +185,17 @@ categories:
     url:     "https://github.com/sfzinstruments/DrumGizmo.DRSKit/"
     download_size: "754.2 MB"
     short_description: "DrumGizmo DRSKit v1.0 sfz instrument port"
+
+  - name:    "Frankensnare"
+    page:    "frankensnare"
+    version: "2.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/frankensnare"
+    download_size: "900 GB"
+    short_description:
+      "A collection of snare drums from the small to the huge."
 
   - name:    "G1 Basic"
 #   page:    "g1_basic"
@@ -256,28 +295,6 @@ categories:
 #     samplerate: ""
       size: "369,7 MB"
       short_description: ""
-      
-  - name:    "Big Rusty Drums"
-    page:    "big_rusty_drums"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/big-rusty-drums"
-    download_size: "2.3 GB"
-    short_description:
-      "An oversized drum kit from 1980s Poland."
-            
-  - name:    "Unruly Drums"
-    page:    "unruly_drums"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/unruly-drums"
-    download_size: "2 GB"
-    short_description:
-      "A strange drum kit where every drum, including the kick, is a snare."
             
   - name:    "Swirly Drums"
     page:    "swirly_drums"
@@ -288,18 +305,18 @@ categories:
     url:     "https://shop.karoryfer.com/products/swirly-drums"
     download_size: "1.6 GB"
     short_description:
-      "Punk/indie drums and unusual percussion played with brushes."   
-      
-  - name:    "Frankensnare"
-    page:    "frankensnare"
-    version: "2.000"
+      "Punk/indie drums and unusual percussion played with brushes."
+
+  - name:    "Unruly Drums"
+    page:    "unruly_drums"
+    version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
     format:  "wav"
-    url:     "https://shop.karoryfer.com/products/frankensnare"
-    download_size: "900 GB"
+    url:     "https://shop.karoryfer.com/products/unruly-drums"
+    download_size: "2 GB"
     short_description:
-      "A collection of snare drums from the small to the huge."
+      "A strange drum kit where every drum, including the kick, is a snare."
       
 - name: "Folk"
   page: "folk"
