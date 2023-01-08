@@ -515,25 +515,6 @@ categories:
 - name: "Keyboards"
   page: "keyboards"
   instruments:
-- name: "Melodic Percussion"
-  page: "melodic-percussion"
-  instruments:
-  - name:    "MSLP Vibes"
-    page:    "mslp_vibes"
-    author:  "Bandshed Records"
-    license: "CC-BY-3.0"
-    url:     "http://www.bandshed.net/sounds/sfz/"
-    download_size: "19 MB"
-    short_description:
-      "A sampled vibraphone, 3 octaves, one sample each note, one velocity layer."
-    downloads:
-    - label: "Instrument"
-      url: "http://www.bandshed.net/sounds/sfz/vibes.zip"
-      format: "wav"
-      samplerate: "44.1"
-      size: "19 MB"
-      short_description: "Zipped file"
-
   - name:    "Sforzatron"
     page:    "sforzatron"
 #   version: ""
@@ -560,6 +541,25 @@ categories:
       samplerate: "44.1"
       size: "50 MB"
       short_description: "zipped sfz"
+
+- name: "Melodic Percussion"
+  page: "melodic-percussion"
+  instruments:
+  - name:    "MSLP Vibes"
+    page:    "mslp_vibes"
+    author:  "Bandshed Records"
+    license: "CC-BY-3.0"
+    url:     "http://www.bandshed.net/sounds/sfz/"
+    download_size: "19 MB"
+    short_description:
+      "A sampled vibraphone, 3 octaves, one sample each note, one velocity layer."
+    downloads:
+    - label: "Instrument"
+      url: "http://www.bandshed.net/sounds/sfz/vibes.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "19 MB"
+      short_description: "Zipped file"
 
 - name: "Misc"
   page: "misc"
