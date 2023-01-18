@@ -302,7 +302,7 @@ categories:
       "A collection of snare drums from the small to the huge."
       
 - name: "Drum Machines"
-# page: "drum_machines"
+  page: "drum_machines"
   instruments:
   - name:    "MFB Tanzbar Drum Samples"
 #   page:    "mfb_tanzar"
