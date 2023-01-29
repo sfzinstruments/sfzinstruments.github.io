@@ -485,7 +485,7 @@ categories:
     author:  "Karoryfer Samples"
     license: "Commercial"
     format:  "wav"
-    url:     "https://shop.karoryfer.com/products/glockenskull_guitar"
+    url:     "https://shop.karoryfer.com/products/glockenskull-guitar"
     download_size: "2 GB"
     short_description:
       "Late Soviet electric guitar."
@@ -496,7 +496,7 @@ categories:
     author:  "Karoryfer Samples"
     license: "Commercial"
     format:  "wav"
-    url:     "https://shop.karoryfer.com/products/secret_agent_guitar"
+    url:     "https://shop.karoryfer.com/products/secret-agent-guitar"
     download_size: "3.7 GB"
     short_description:
       "12-string hollowbody electric guitar made in 1972 in Poland."     
@@ -507,7 +507,7 @@ categories:
     author:  "Karoryfer Samples"
     license: "Commercial"
     format:  "wav"
-    url:     "https://shop.karoryfer.com/products/snowkiss_guitar"
+    url:     "https://shop.karoryfer.com/products/snowkiss-guitar"
     download_size: "5.6 GB"
     short_description:
       "Boutique Jazzmaster-style guitar with extended techinques."
@@ -616,7 +616,7 @@ categories:
     version: "1.2.2"
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
-    url:     "https://github.com/sgossner/VCSL/releases"
+    url:     "https://github.com/sgossner/VCSL"
     download_size: "4+ GB"
     short_description:
       "General-purpose sample library for a set of quality samples suitable for
@@ -721,7 +721,7 @@ categories:
     version: "2.0"
     author:  "Mattias Westlund, Peter Eastman"
     license: "CC Sampling Plus 1.0"
-    url:     "https://github.com/peastman/sso/releases"
+    url:     "https://github.com/peastman/sso"
     download_size: "695 MB"
     short_description:
       "Sonatina Symphonic Orchestra (SSO) is a free library
@@ -732,7 +732,7 @@ categories:
     version: "1.1.0"
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
-    url:     "https://github.com/sgossner/VSCO-2-CE/releases"
+    url:     "https://github.com/sgossner/VSCO-2-CE"
     download_size: "2.3 GB"
     short_description: "An open-source orchestral library."
     downloads:
