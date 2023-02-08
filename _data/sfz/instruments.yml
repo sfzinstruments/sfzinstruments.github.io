@@ -362,6 +362,16 @@ categories:
 - name: "Folk"
   page: "folk"
   instruments:
+  - name:    "Kay 5-String Banjo"
+    page:    "kay_5_string_banjo"
+    author:  "FlameStudios"
+    license: "GPL-3.0-or-later"
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/FlameStudios.Kay5StringBanjo/"
+    download_size: "425 MB"
+    short_description:
+      "A 5 string closed back banjo."
+
   - name:    "1912"
     page:    "1912"
 #   version: ""
@@ -457,16 +467,6 @@ categories:
 - name: "Guitars"
   page: "guitars"
   instruments:
-  - name:    "Kay 5-String Banjo"
-    page:    "kay_5_string_banjo"
-    author:  "FlameStudios"
-    license: "GPL-3.0-or-later"
-    format:  "wav"
-    url:     "https://github.com/sfzinstruments/FlameStudios.Kay5StringBanjo/"
-    download_size: "425 MB"
-    short_description:
-      "A 5 string closed back banjo."
-
   - name:    "Emilyguitar"
     page:    "emilyguitar"
 #   version: ""
