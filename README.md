@@ -60,7 +60,7 @@ See [LICENSE] file for details.
 [Node.js]:                http://nodejs.org/
 [_posts]:                 https://github.com/sfzinstruments/sfzinstruments.github.io/tree/source/_posts/
 [SASS]:                   https://sass-lang.com/
-[SFZ Format website]      https://sfzformat.com/
+[SFZ Format website]:     https://sfzformat.com/
 [SFZ Instruments]:        https://sfzinstruments.github.io/
 [Wiki]:                   https://github.com/sfzinstruments/sfzinstruments.github.io/wiki/Add-Instruments
 
