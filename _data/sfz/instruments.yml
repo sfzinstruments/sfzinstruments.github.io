@@ -1266,17 +1266,16 @@ categories:
   page: "vocals"
   instruments:
   - name:    "272 Merry Orks"
-    page:    "272_merry_orks"
+#   page:    "272_merry_orks"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
-    url:     "https://github.com/sfzinstruments/karoryfer.272-merry-orks/"
+    url:     "https://shop.karoryfer.com/pages/free-272-merry-orks"
 #   download_size: ""
     short_description:
-      "This is an early predecessor to Marie Ork. Before this, all of our sample
-      libraries were made because we wanted to use them for something."
+      "This is an early predecessor to Marie Ork. Samples of female death metal vocals."
                             
   - name:    "Hster"
     page:    "hster"
