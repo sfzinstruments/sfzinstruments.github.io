@@ -622,19 +622,6 @@ categories:
 - name: "Misc"
   page: "misc"
   instruments:
-  - name:    "272 Merry Orks"
-    page:    "272_merry_orks"
-#   version: ""
-    author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
-#   samplerate: ""
-    format:  "wav"
-    url:     "https://github.com/sfzinstruments/karoryfer.272-merry-orks/"
-#   download_size: ""
-    short_description:
-      "This is an early predecessor to Marie Ork. Before this, all of our sample
-      libraries were made because we wanted to use them for something."
-
   - name:    "Ergo electric upright bass"
     page:    "ergo"
 #   version: ""
@@ -694,61 +681,6 @@ categories:
       samplerate: "44.1"
       size: "4.1 GB"
       short_description: "tar.gz archive"
-                            
-  - name:    "Hster"
-    page:    "hster"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/hster"
-    download_size: "1 GB"
-    short_description:
-      "Mezzosoprano vocal singing in reconstructed Proto-Indo-European."
-      
-  - name:    "Hadzi-Fia"
-    page:    "hadzi_fia"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/hadzi-fia"
-    download_size: "1.6 GB"
-    short_description:
-      "Deep male solo vocal singing in the Ewe language from West Africa."
-      
-  - name:    "Hadzi-Hevi"
-    page:    "hadzi_hevi"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/hadzi-hevi"
-    download_size: "1.5 GB"
-    short_description:
-      "Female solo vocal singing in the Ewe language from West Africa."
-            
-  - name:    "Torgbe"
-    page:    "torgbe"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/torgbe"
-    download_size: "1 GB"
-    short_description:
-      "Male choir singing in the Ewe, Akan and Ga-Adangbe and languages from West Africa."
-      
-  - name:    "Hadziha"
-    page:    "hadziha"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "Commercial"
-    format:  "wav"
-    url:     "https://shop.karoryfer.com/products/hadziha"
-    download_size: "980 MB"
-    short_description:
-      "Female choir singing in the Ewe, Akan and Ga-Adangbe language from West Africa."      
       
   - name:    "Orcophony"
     page:    "orcophony"
@@ -1277,6 +1209,77 @@ categories:
     short_description:
       "A totally anachronistic synthesizer made from samples of a Unitra B 11
       transistor organ made in Poland in 1983."
+      
+- name: "Vocals"
+  page: "vocals"
+  instruments:
+  - name:    "272 Merry Orks"
+    page:    "272_merry_orks"
+#   version: ""
+    author:  "Karoryfer Samples"
+    license: "CC-BY-4.0"
+#   samplerate: ""
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/karoryfer.272-merry-orks/"
+#   download_size: ""
+    short_description:
+      "This is an early predecessor to Marie Ork. Before this, all of our sample
+      libraries were made because we wanted to use them for something."
+                            
+  - name:    "Hster"
+    page:    "hster"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/hster"
+    download_size: "1 GB"
+    short_description:
+      "Mezzosoprano vocal singing in reconstructed Proto-Indo-European."
+      
+  - name:    "Hadzi-Fia"
+    page:    "hadzi_fia"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/hadzi-fia"
+    download_size: "1.6 GB"
+    short_description:
+      "Deep male solo vocal singing in the Ewe language from West Africa."
+      
+  - name:    "Hadzi-Hevi"
+    page:    "hadzi_hevi"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/hadzi-hevi"
+    download_size: "1.5 GB"
+    short_description:
+      "Female solo vocal singing in the Ewe language from West Africa."
+            
+  - name:    "Torgbe"
+    page:    "torgbe"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/torgbe"
+    download_size: "1 GB"
+    short_description:
+      "Male choir singing in the Ewe, Akan and Ga-Adangbe and languages from West Africa."
+      
+  - name:    "Hadziha"
+    page:    "hadziha"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/hadziha"
+    download_size: "980 MB"
+    short_description:
+      "Female choir singing in the Ewe, Akan and Ga-Adangbe language from West Africa."
 
 - name: "Woodwinds"
   page: "woodwinds"

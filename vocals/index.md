@@ -1,5 +1,5 @@
 ---
-title:  "Woodwinds"
+title:  "Vocals"
 layout: "no_title"
 ---
 {%-comment-%} See https://github.com/sfzinstruments/sfzinstruments.github.io/wiki/Add-Instruments {%-endcomment-%}
