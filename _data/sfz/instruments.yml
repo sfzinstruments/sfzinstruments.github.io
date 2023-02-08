@@ -6,7 +6,7 @@ categories:
     page:    "fashionbass"
     version: "1.001"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.fashionbass/"
     download_size: "302 MB"
     short_description:
@@ -27,7 +27,7 @@ categories:
     page:    "growlybass"
     version: "1.002"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.growlybass/"
     download_size: "160 MB"
     short_description:
@@ -44,7 +44,7 @@ categories:
     page:    "pastabass"
     version: "1.101"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
     download_size: "301 MB"
     short_description:
@@ -88,7 +88,7 @@ categories:
     page:    "swagbass"
     version: "1.001"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.swagbass/"
     download_size: "138 MB"
     short_description:
@@ -129,7 +129,7 @@ categories:
     page:    "war_tuba"
     version: "1.002"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.war-tuba/"
     download_size: "104 MB"
     short_description:
@@ -184,7 +184,7 @@ categories:
     page:    "gogodze_phu_vol_ii"
     version: "1.001"
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/"
     download_size: "133 MB"
@@ -371,6 +371,19 @@ categories:
     download_size: "425 MB"
     short_description:
       "A 5 string closed back banjo."
+      
+  - name:    "ganjo"
+#   page:    "ganjo"
+    author:  "itsclipping"
+    license: "CC0-1.0"
+    format:  "wav"
+    url:     "https://github.com/sfzinstruments/ganjo"
+    download_size: "23 MB"
+    short_description:
+      "A 6-string guitar banjo."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/ganjo/releases/download/v1.000/ganjo-v1.000.zip"      
 
   - name:    "1912"
     page:    "1912"
@@ -464,6 +477,19 @@ categories:
     short_description:
       "Tagelharpa, strakharpa and bass tagelharpa."
       
+  - name:    "Horse Pulse"
+#   page:    "ganjo"
+    author:  "Karoryfer Samples"
+    license: "CC0-1.0"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/pages/free-horse-pulse"
+    download_size: "180 MB"
+    short_description:
+      "Bass tagelharpa played pizzicato."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"   
+      
 - name: "Guitars"
   page: "guitars"
   instruments:
@@ -471,7 +497,7 @@ categories:
     page:    "emilyguitar"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.emilyguitar/"
 #   download_size: ""
     short_description:
@@ -515,7 +541,7 @@ categories:
     page:    "shinyguitar"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.shinyguitar/"
 #   download_size: ""
     short_description:
@@ -570,6 +596,19 @@ categories:
     short_description:
       "Boutique Jazzmaster-style guitar with extended techinques."
       
+  - name:    "Black_And_Green_Guitars"
+#   page:    "bng_guitars"
+    author:  "Karoryfer Samples"
+    license: "CC0-1.0"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/pages/free-black-and-green-guitars"
+    download_size: "500 MB"
+    short_description:
+      "Two hollowbody electric guitars."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"   
+            
 - name: "Keyboards"
   page: "keyboards"
   instruments:
@@ -626,7 +665,7 @@ categories:
     page:    "ergo"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.ergo/"
@@ -801,7 +840,7 @@ categories:
     page:    "gogodze_phu_vol_i"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-i/"
@@ -968,7 +1007,7 @@ categories:
     page:    "scarypiano"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url: "https://github.com/sfzinstruments/karoryfer.scarypiano/"
 #   download_size: ""
     short_description:
@@ -1107,7 +1146,7 @@ categories:
     page:    "bigcat_cello"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer-bigcat.cello/"
 #   download_size: ""
     short_description:
@@ -1117,7 +1156,7 @@ categories:
     page:    "dsmolken_double_bass"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/dsmolken.double-bass/"
 #   download_size: ""
     short_description:
@@ -1128,7 +1167,7 @@ categories:
     page:    "meatbass"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.meatbass/"
 #   download_size: ""
     short_description:
@@ -1138,7 +1177,7 @@ categories:
     page:    "string_cyborgs"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.string-cyborgs/"
 #   download_size: ""
     short_description:
@@ -1184,6 +1223,19 @@ categories:
     short_description:
       "Violin with a wide range of extended techniques."
       
+  - name:    "Sneakybass"
+#   page:    "sneakybass"
+    author:  "Karoryfer Samples"
+    license: "CC0-1.0"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/pages/free-sneakybass"
+    download_size: "324 MB"
+    short_description:
+      "Double bass played pizzicato at very quiet volume."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.sneakybass/releases/download/v1.000/Sneakybass_v1.000.zip" 
+      
 - name: "Synthesizers"
   page: "synthesizers"
   instruments:
@@ -1191,7 +1243,7 @@ categories:
     page:    "cowsynth"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.cowsynth/"
 #   download_size: ""
     short_description:
@@ -1203,7 +1255,7 @@ categories:
     page:    "caveman_cosmonaut"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-3.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.caveman-cosmonaut/"
 #   download_size: ""
     short_description:
@@ -1217,7 +1269,7 @@ categories:
     page:    "272_merry_orks"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
     url:     "https://github.com/sfzinstruments/karoryfer.272-merry-orks/"
@@ -1288,7 +1340,7 @@ categories:
     page:    "bear_sax"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.bear-sax/"
 #   download_size: ""
     short_description:
@@ -1322,7 +1374,7 @@ categories:
     page:    "squidpipes"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.squidpipes/"
 #   download_size: ""
     short_description:
@@ -1333,7 +1385,7 @@ categories:
     page:    "weresax"
 #   version: ""
     author:  "Karoryfer Samples"
-    license: "CC-BY-4.0"
+    license: "CC0-1.0"
     url:     "https://github.com/sfzinstruments/karoryfer.weresax/"
 #   download_size: ""
     short_description:
