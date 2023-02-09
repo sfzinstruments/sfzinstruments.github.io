@@ -1,11 +1,11 @@
 # [SFZ Instruments] website
 
-[![CC0 Badge]][CC0-1.0]
+Originally integrated into the [SFZ Format website], now as standalone,
+listing various sfz instruments published around the web, including the ones in
+this Github organization.
 
-Originally part of [SFZ Format website], available here also as standalone,
-listing instruments published in this organization and other external sites.
-
-Check the [Wiki] to see how to add new instruments to the description list.
+Feel free to join our [Discord] chat and, if you want to contribute, you can also
+check the [Wiki] to see how to add new instruments to the description list.
 
 ## Dependencies
 
@@ -62,8 +62,8 @@ See [LICENSE] file for details.
 [SASS]:                   https://sass-lang.com/
 [SFZ Format website]:     https://sfzformat.com/
 [SFZ Instruments]:        https://sfzinstruments.github.io/
-[Wiki]:                   https://github.com/sfzinstruments/sfzinstruments.github.io/wiki/Add-Instruments
 
-[LICENSE]:   LICENSE
-[CC0 Badge]: https://badgen.net/badge/license/CC0/orange
-[CC0-1.0]:   https://creativecommons.org/publicdomain/zero/1.0/
+[Wiki]:    https://github.com/sfzinstruments/sfzinstruments.github.io/wiki/Add-Instruments
+[Discord]: https://discord.gg/t7nrZ6d
+[LICENSE]: LICENSE
+[CC0-1.0]: https://creativecommons.org/publicdomain/zero/1.0/
