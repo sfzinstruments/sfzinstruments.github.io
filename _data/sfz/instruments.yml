@@ -3,11 +3,11 @@ categories:
   page: "basses"
   instruments:
   - name:    "Fashionbass"
-    page:    "fashionbass"
+#   page:    "fashionbass"
     version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.fashionbass/"
+    url:     "https://shop.karoryfer.com/pages/free-fashionbass"
     download_size: "302 MB"
     short_description:
       "The bass sampled here <a href='http://killer.jp/bass/kb-simmony.html'>
@@ -24,11 +24,11 @@ categories:
       short_description: ""
 
   - name:    "Growlybass"
-    page:    "growlybass"
+#   page:    "growlybass"
     version: "1.002"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.growlybass/"
+    url:     "https://shop.karoryfer.com/pages/free-growlybass"
     download_size: "160 MB"
     short_description:
       "Squier Jazz bass."
@@ -41,11 +41,11 @@ categories:
       short_description: ""
 
   - name:    "Pastabass"
-    page:    "pastabass"
+#   page:    "pastabass"
     version: "1.101"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.pastabass/"
+    url:     "https://shop.karoryfer.com/pages/free-pastabass"
     download_size: "301 MB"
     short_description:
       "Squier Bass VI."
@@ -85,11 +85,11 @@ categories:
       short_description: ""
 
   - name:    "Swagbass"
-    page:    "swagbass"
+#   page:    "swagbass"
     version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.swagbass/"
+    url:     "https://shop.karoryfer.com/pages/free-swagbass"
     download_size: "138 MB"
     short_description:
       "The first instrument released under the Karoryfer Samples name is a simple
@@ -103,7 +103,7 @@ categories:
       short_description: ""
       
   - name:    "Beefowulf Bass"
-    page:    "beefowulf_bass"
+#   page:    "beefowulf_bass"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -113,7 +113,7 @@ categories:
       "Warm bass guitar for R&B and hip-hop."
       
   - name:    "Secret Agent Bass"
-    page:    "secret_agent_bass"
+#   page:    "secret_agent_bass"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -126,11 +126,11 @@ categories:
   page: "brass"
   instruments:
   - name:    "War Tuba"
-    page:    "war_tuba"
+#   page:    "war_tuba"
     version: "1.002"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.war-tuba/"
+    url:     "https://shop.karoryfer.com/pages/free-war-tuba"
     download_size: "104 MB"
     short_description:
       "War Tuba is a tuba sample library created with the tuba player from
@@ -181,12 +181,12 @@ categories:
     short_description: "Ludwig drum kit with Basic (free), Standard and Extreme versions, all with sfz and Kontakt instruments."
 
   - name:    "Gogodze Phu Vol II"
-    page:    "gogodze_phu_vol_ii"
+#   page:    "gogodze_phu_vol_ii"
     version: "1.001"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
     format:  "wav"
-    url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-ii/"
+    url:     "https://shop.karoryfer.com/pages/free-gogodze-phu-vol-ii"
     download_size: "133 MB"
     short_description:
       "A variable fidelity drum kit - lo-fi, hi-fi or anywhere inbetween."
@@ -269,7 +269,7 @@ categories:
       short_description: ""
       
   - name:    "Big Rusty Drums"
-    page:    "big_rusty_drums"
+#   page:    "big_rusty_drums"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -280,7 +280,7 @@ categories:
       "An oversized drum kit from 1980s Poland."
             
   - name:    "Unruly Drums"
-    page:    "unruly_drums"
+#   page:    "unruly_drums"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -291,7 +291,7 @@ categories:
       "A strange drum kit where every drum, including the kick, is a snare."
             
   - name:    "Swirly Drums"
-    page:    "swirly_drums"
+#   page:    "swirly_drums"
     version: "1.100"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -302,7 +302,7 @@ categories:
       "Punk/indie drums and unusual percussion played with brushes."   
       
   - name:    "Frankensnare"
-    page:    "frankensnare"
+#   page:    "frankensnare"
     version: "2.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -434,7 +434,7 @@ categories:
       short_description: "zip archive"
                      
   - name:    "Kemençe Of The Black Sea"
-    page:    "kemence_of_the_black_sea"
+#   page:    "kemence_of_the_black_sea"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -445,7 +445,7 @@ categories:
       "Box-shaped kemençe, played more like a violin."
       
   - name:    "Turkish Rebab"
-    page:    "turkish_rebab"
+#   page:    "turkish_rebab"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -456,7 +456,7 @@ categories:
       "A spike rebab played in the traditional Turkish style."      
               
   - name:    "Nanfo"
-    page:    "nanfo"
+#   page:    "nanfo"
     version: "2.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -467,7 +467,7 @@ categories:
       "Over a dozen West African instruments - harps, xylophones, flutes etc."
               
   - name:    "Three Tagelharpas"
-    page:    "three_tagelharpas"
+#   page:    "three_tagelharpas"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -478,7 +478,7 @@ categories:
       "Tagelharpa, strakharpa and bass tagelharpa."
       
   - name:    "Horse Pulse"
-#   page:    "ganjo"
+#   page:    "horse_pulse"
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
     format:  "wav"
@@ -494,11 +494,11 @@ categories:
   page: "guitars"
   instruments:
   - name:    "Emilyguitar"
-    page:    "emilyguitar"
+#   page:    "emilyguitar"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.emilyguitar/"
+    url:     "https://shop.karoryfer.com/pages/free-emilyguitar"
 #   download_size: ""
     short_description:
       "A simple general-purpose guitar library."
@@ -538,12 +538,12 @@ categories:
       short_description: ""
 
   - name:    "Shinyguitar"
-    page:    "shinyguitar"
+#   page:    "shinyguitar"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.shinyguitar/"
-#   download_size: ""
+    url:     "https://shop.karoryfer.com/pages/free-shinyguitar"
+    download_size: "352 MB"
     short_description:
       "A shiny black archtop guitar, and our first library to get a graphical user interface."
 
@@ -564,7 +564,7 @@ categories:
       short_description: ""
               
   - name:    "Glockenskull Guitar"
-    page:    "glockenskull_guitar"
+#   page:    "glockenskull_guitar"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -575,7 +575,7 @@ categories:
       "Late Soviet electric guitar."
                
   - name:    "Secret Agent Guitar"
-    page:    "secret_agent_guitar"
+#   page:    "secret_agent_guitar"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -586,7 +586,7 @@ categories:
       "12-string hollowbody electric guitar made in 1972 in Poland."     
                     
   - name:    "Snowkiss Guitar"
-    page:    "snowkiss_guitar"
+#   page:    "snowkiss_guitar"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -662,13 +662,13 @@ categories:
   page: "misc"
   instruments:
   - name:    "Ergo electric upright bass"
-    page:    "ergo"
+#   page:    "ergo"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
-    url:     "https://github.com/sfzinstruments/karoryfer.ergo/"
+    url:     "https://shop.karoryfer.com/pages/free-ergo-eub"
 #   download_size: ""
     short_description:
       "One huge solid stick of mahogany, four long and thick strings,
@@ -722,7 +722,7 @@ categories:
       short_description: "tar.gz archive"
       
   - name:    "Orcophony"
-    page:    "orcophony"
+#   page:    "orcophony"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -837,13 +837,13 @@ categories:
       short_description: ""
 
   - name:    "Gogodze Phu Vol I"
-    page:    "gogodze_phu_vol_i"
+#   page:    "gogodze_phu_vol_i"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
 #   samplerate: ""
     format:  "wav"
-    url:     "https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-i/"
+    url:     "https://shop.karoryfer.com/pages/free-gogodze-phu-vol-i"
 #   download_size: ""
     short_description:
       "A percussion collection with five bobobo drums from Ghana and a cajon recorded in Poland."
@@ -881,7 +881,7 @@ categories:
       short_description: ""
 
   - name:    "Ghana Drums"
-    page:    "ghana_drums"
+#   page:    "ghana_drums"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1004,11 +1004,11 @@ categories:
       "Yamaha CF-3 Grand Piano."
 
   - name:    "Scarypiano"
-    page:    "scarypiano"
+#   page:    "scarypiano"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url: "https://github.com/sfzinstruments/karoryfer.scarypiano/"
+    url: "https://shop.karoryfer.com/pages/free-scarypiano"
 #   download_size: ""
     short_description:
       "Scarypiano came about almost by accident - one of us was writing a review
@@ -1143,48 +1143,48 @@ categories:
   page: "strings"
   instruments:
   - name:    "Bigcat Cello"
-    page:    "bigcat_cello"
+#   page:    "bigcat_cello"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer-bigcat.cello/"
+    url:     "https://shop.karoryfer.com/pages/free-karoryfer-x-bigcat-cello"
 #   download_size: ""
     short_description:
       "A flexible cello."
 
   - name:    "D. Smolken Double Bass"
-    page:    "dsmolken_double_bass"
+#   page:    "dsmolken_double_bass"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/dsmolken.double-bass/"
+    url:     "https://shop.karoryfer.com/pages/d-smolkens-double-bass"
 #   download_size: ""
     short_description:
       "An earlier sample library from one of our developers,
       available as a free download."
 
   - name:    "Meatbass"
-    page:    "meatbass"
+#   page:    "meatbass"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.meatbass/"
+    url:     "https://shop.karoryfer.com/pages/free-meatbass"
 #   download_size: ""
     short_description:
       "1958 Otto Rubner acoustic double bass."
 
   - name:    "String Cyborgs"
-    page:    "string_cyborgs"
+#   page:    "string_cyborgs"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.string-cyborgs/"
+    url:     "https://shop.karoryfer.com/pages/free-string-cyborgs"
 #   download_size: ""
     short_description:
       "Part violin family, part machine."
 
   - name:    "Vengeful Bass"
-    page:    "vengeful_bass"
+#   page:    "vengeful_bass"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1194,7 +1194,7 @@ categories:
       "Double bass with a wide range of extended techniques."
 
   - name:    "Vengeful Cello"
-    page:    "vengeful_cello"
+#   page:    "vengeful_cello"
     version: "2.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1204,7 +1204,7 @@ categories:
       "Cello with a wide range of extended techniques and bonus string-based synthesizer."      
       
   - name:    "Vengeful Viola"
-    page:    "vengeful_viola"
+#   page:    "vengeful_viola"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1214,7 +1214,7 @@ categories:
       "Viola with a wide range of extended techniques."
       
   - name:    "Vengeful Violin"
-    page:    "vengeful_violin"
+#   page:    "vengeful_violin"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1240,11 +1240,11 @@ categories:
   page: "synthesizers"
   instruments:
   - name:    "Cowsynth"
-    page:    "cowsynth"
+#   page:    "cowsynth"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.cowsynth/"
+    url:     "https://shop.karoryfer.com/pages/free-cowsynth"
 #   download_size: ""
     short_description:
       "For thousands of years, bagpipes have been the sonic terrorist's weapon
@@ -1252,11 +1252,11 @@ categories:
       samples of bagpipes and treating them as oscillators in a simple synthesizer."
 
   - name:    "Caveman Cosmonaut"
-    page:    "caveman_cosmonaut"
+#   page:    "caveman_cosmonaut"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.caveman-cosmonaut/"
+    url:     "https://shop.karoryfer.com/pages/free-caveman-cosmonaut"
 #   download_size: ""
     short_description:
       "A totally anachronistic synthesizer made from samples of a Unitra B 11
@@ -1278,7 +1278,7 @@ categories:
       "This is an early predecessor to Marie Ork. Samples of female death metal vocals."
                             
   - name:    "Hster"
-    page:    "hster"
+#   page:    "hster"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1289,7 +1289,7 @@ categories:
       "Mezzosoprano vocal singing in reconstructed Proto-Indo-European."
       
   - name:    "Hadzi-Fia"
-    page:    "hadzi_fia"
+#   page:    "hadzi_fia"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1300,7 +1300,7 @@ categories:
       "Deep male solo vocal singing in the Ewe language from West Africa."
       
   - name:    "Hadzi-Hevi"
-    page:    "hadzi_hevi"
+#   page:    "hadzi_hevi"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1311,7 +1311,7 @@ categories:
       "Female solo vocal singing in the Ewe language from West Africa."
             
   - name:    "Torgbe"
-    page:    "torgbe"
+#   page:    "torgbe"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1322,7 +1322,7 @@ categories:
       "Male choir singing in the Ewe, Akan and Ga-Adangbe and languages from West Africa."
       
   - name:    "Hadziha"
-    page:    "hadziha"
+#   page:    "hadziha"
     version: "1.000"
     author:  "Karoryfer Samples"
     license: "Commercial"
@@ -1336,11 +1336,11 @@ categories:
   page: "woodwinds"
   instruments:
   - name:    "Bear Sax"
-    page:    "bear_sax"
+#   page:    "bear_sax"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.bear-sax/"
+    url:     "https://shop.karoryfer.com/pages/free-bear-sax"
 #   download_size: ""
     short_description:
       "Samples of a very nice Conn baritone saxophone from 1926."
@@ -1370,22 +1370,22 @@ categories:
       "A complete set of Soprano, Alto, Tenor and Baritone solo saxophones."
 
   - name:    "Squidpipes"
-    page:    "squidpipes"
+#   page:    "squidpipes"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.squidpipes/"
+    url:     "https://shop.karoryfer.com/pages/free-squidpipes"
 #   download_size: ""
     short_description:
-      "A unique bagpipes library, using the mantle of a large squid as the bag,
+      "April Fool's bagpipes library, using the mantle of a large squid as the bag,
       PVC pipes which were trimmed to produce each new note, and an oboe reed."
 
   - name:    "Weresax"
-    page:    "weresax"
+#   page:    "weresax"
 #   version: ""
     author:  "Karoryfer Samples"
     license: "CC0-1.0"
-    url:     "https://github.com/sfzinstruments/karoryfer.weresax/"
+    url:     "https://shop.karoryfer.com/pages/free-weresax"
 #   download_size: ""
     short_description:
       "Alto saxophone sample library."
