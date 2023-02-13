@@ -733,7 +733,7 @@ categories:
       "A medieval-fantasy collection with a goblin theme."
             
   - name:    "The Halfling"
-    page:    "the_halfling"
+#   page:    "the_halfling"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
@@ -1070,7 +1070,7 @@ categories:
       short_description: ""
 
   - name:    "PiAnnette"
-    page:    "piannette"
+#   page:    "piannette"
 #   version: ""
     author:  "fisound"
     license: "Commercial"
@@ -1080,7 +1080,7 @@ categories:
       "A Hohner PianetT electric piano."
 
   - name:    "Concert Grand Compact"
-    page:    "concert_grand_compact"
+#   page:    "concert_grand_compact"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
@@ -1090,7 +1090,7 @@ categories:
       "Steinway Model D. Compact sforzando version of larger Kontakt library."
       
   - name:    "Death Piano"
-    page:    "death_piano"
+#   page:    "death_piano"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
@@ -1100,7 +1100,7 @@ categories:
       "Processed piano. Also available in a Kontakt version."
 
   - name:    "Production Grand Compact"
-    page:    "production_grand_compact"
+#   page:    "production_grand_compact"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
@@ -1110,7 +1110,7 @@ categories:
       "Yamaha C7. Compact sforzando version of larger Kontakt library."
       
   - name:    "Estate Grand"
-    page:    "estate_grand"
+#   page:    "estate_grand"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
@@ -1120,7 +1120,7 @@ categories:
       "Kawai GS 60."
        
   - name:    "Estate Grand LE"
-    page:    "estate_grand_le"
+#   page:    "estate_grand_le"
 #   version: ""
     author:  "Production Voices"
 #   license: ""
@@ -1130,7 +1130,7 @@ categories:
       "Kawai GS 60. Free version of Estate Grand"
 
   - name:    "Electric V"
-    page:    "electric_v"
+#   page:    "electric_v"
 #   version: ""
     author:  "Production Voices"
     license: "Commercial"
