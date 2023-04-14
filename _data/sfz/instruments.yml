@@ -101,7 +101,7 @@ categories:
       samplerate: "44.1"
       size: "138 MB"
       short_description: ""
-      
+
   - name:    "Beefowulf Bass"
 #   page:    "beefowulf_bass"
     version: "1.000"
@@ -111,7 +111,7 @@ categories:
     download_size: "1.2 GB"
     short_description:
       "Warm bass guitar for R&B and hip-hop."
-      
+
   - name:    "Secret Agent Bass"
 #   page:    "secret_agent_bass"
     version: "1.000"
@@ -167,7 +167,9 @@ categories:
 #   format:  ""
     url:     "https://tkd-sound.booth.pm/items/1208913"
     download_size: "6.25+ MB"
-    short_description: "Gretsch drum kit with Basic (free), Standard and Extreme versions, all with sfz and Kontakt instruments."
+    short_description:
+      "Gretsch drum kit with Basic (free), Standard and Extreme versions,
+      all with sfz and Kontakt instruments."
 
   - name:    "L1"
 #   page:    "l1"
@@ -178,7 +180,9 @@ categories:
 #   format:  ""
     url:     "https://tkd-sound.booth.pm/items/1745035"
     download_size: "19.2+ MB"
-    short_description: "Ludwig drum kit with Basic (free), Standard and Extreme versions, all with sfz and Kontakt instruments."
+    short_description:
+      "Ludwig drum kit with Basic (free), Standard and Extreme versions,
+      all with sfz and Kontakt instruments."
 
   - name:    "Gogodze Phu Vol II"
 #   page:    "gogodze_phu_vol_ii"
@@ -267,7 +271,7 @@ categories:
 #     samplerate: ""
       size: "369,7 MB"
       short_description: ""
-      
+
   - name:    "Big Rusty Drums"
 #   page:    "big_rusty_drums"
     version: "1.000"
@@ -278,7 +282,7 @@ categories:
     download_size: "2.3 GB"
     short_description:
       "An oversized drum kit from 1980s Poland."
-            
+
   - name:    "Unruly Drums"
 #   page:    "unruly_drums"
     version: "1.000"
@@ -289,7 +293,7 @@ categories:
     download_size: "2 GB"
     short_description:
       "A strange drum kit where every drum, including the kick, is a snare."
-            
+
   - name:    "Swirly Drums"
 #   page:    "swirly_drums"
     version: "1.100"
@@ -299,8 +303,8 @@ categories:
     url:     "https://shop.karoryfer.com/products/swirly-drums"
     download_size: "1.6 GB"
     short_description:
-      "Punk/indie drums and unusual percussion played with brushes."   
-      
+      "Punk/indie drums and unusual percussion played with brushes."
+
   - name:    "Frankensnare"
 #   page:    "frankensnare"
     version: "2.000"
@@ -311,7 +315,7 @@ categories:
     download_size: "900 GB"
     short_description:
       "A collection of snare drums from the small to the huge."
-      
+
 - name: "Drum Machines"
   page: "drum_machines"
   instruments:
@@ -324,8 +328,10 @@ categories:
 #   format:  ""
     url:     "https://www.wavealchemy.co.uk/blog/free-mfb-tanzbar-drum-samples/"
     download_size: "6.5 MB"
-    short_description: "Unlike the other free Wave Alchemy drum samples, this MFB Tanzbar library includes sfz mappings."
-    
+    short_description:
+      "Unlike the other free Wave Alchemy drum samples,
+      this MFB Tanzbar library includes sfz mappings."
+
   - name:    "(various)"
 #   page:    "wa_various"
 #   version: ""
@@ -335,8 +341,12 @@ categories:
 #   format:  ""
     url:     "https://www.wavealchemy.co.uk/?s=sfz"
 #   download_size: ""
-    short_description: "More than two dozen commercial sample libraries by Wave Alchemy include sfz drumkit mappings. Libraries which contain other elements such as loops and synth samples have sfz mappings for the drums only."
-    
+    short_description:
+      "More than two dozen commercial sample libraries
+      by Wave Alchemy include sfz drumkit mappings.
+      Libraries which contain other elements such as loops and synth samples
+      have sfz mappings for the drums only."
+
   - name:    "(various)"
 #   page:    "sfm_various"
 #   version: ""
@@ -346,8 +356,10 @@ categories:
 #   format:  ""
     url:     "https://samplesfrommars.com/collections/sfz/drum-machine-samples"
 #   download_size: ""
-    short_description: "More than twenty commercial drum machine sample libraries by Samples From Mars include sfz mappings."
-    
+    short_description:
+      "More than twenty commercial drum machine sample libraries
+      by Samples From Mars include sfz mappings."
+
   - name:    "Game Boy Drum Kit"
 #   page:    "game_boy_drum_kit"
 #   version: ""
@@ -357,8 +369,10 @@ categories:
 #   format:  ""
     url:     "https://bedroomproducersblog.com/2015/04/08/game-boy-drum-kit/"
     download_size: "4.14 MB"
-    short_description: "Game Boy drum samples recorded by Fairly Confusing Waveforms, with both Kontakt and sfz instruments included."    
-    
+    short_description:
+      "Game Boy drum samples recorded by Fairly Confusing Waveforms,
+      with both Kontakt and sfz instruments included."
+
 - name: "Folk"
   page: "folk"
   instruments:
@@ -371,7 +385,7 @@ categories:
     download_size: "425 MB"
     short_description:
       "A 5 string closed back banjo."
-      
+
   - name:    "ganjo"
 #   page:    "ganjo"
     author:  "itsclipping"
@@ -383,7 +397,7 @@ categories:
       "A 6-string guitar banjo."
     downloads:
     - label: "Instrument"
-      url: "https://github.com/sfzinstruments/ganjo/releases/download/v1.000/ganjo-v1.000.zip"      
+      url: "https://github.com/sfzinstruments/ganjo/releases/download/v1.000/ganjo-v1.000.zip"
 
   - name:    "1912"
     page:    "1912"
@@ -424,7 +438,9 @@ categories:
     license: "CC BY-NC-SA 3.0 (with modifications)"
     url:     "https://www.fiedler-audio.de/creative-commons-library/"
     download_size: "10 MB"
-    short_description: "A tin whistle in D with breath noises and ornamentations triggered via velocity layering."
+    short_description:
+      "A tin whistle in D with breath noises and ornamentations
+      triggered via velocity layering."
     downloads:
     - label: "Instrument"
       url: "http://www.fiedler-audio.de/cc-sounds/mf-tin-whistle2-ogg.zip"
@@ -432,7 +448,7 @@ categories:
       samplerate: "44.1"
       size: "10 MB"
       short_description: "zip archive"
-                     
+
   - name:    "Kemençe Of The Black Sea"
 #   page:    "kemence_of_the_black_sea"
     version: "1.000"
@@ -443,7 +459,7 @@ categories:
     download_size: "900 MB"
     short_description:
       "Box-shaped kemençe, played more like a violin."
-      
+
   - name:    "Turkish Rebab"
 #   page:    "turkish_rebab"
     version: "1.000"
@@ -453,8 +469,8 @@ categories:
     url:     "https://shop.karoryfer.com/products/turkish-rebab"
     download_size: "300 MB"
     short_description:
-      "A spike rebab played in the traditional Turkish style."      
-              
+      "A spike rebab played in the traditional Turkish style."
+
   - name:    "Nanfo"
 #   page:    "nanfo"
     version: "2.000"
@@ -465,7 +481,7 @@ categories:
     download_size: "2 GB"
     short_description:
       "Over a dozen West African instruments - harps, xylophones, flutes etc."
-              
+
   - name:    "Three Tagelharpas"
 #   page:    "three_tagelharpas"
     version: "1.000"
@@ -476,7 +492,7 @@ categories:
     download_size: "2.2 GB"
     short_description:
       "Tagelharpa, strakharpa and bass tagelharpa."
-      
+
   - name:    "Horse Pulse"
 #   page:    "horse_pulse"
     author:  "Karoryfer Samples"
@@ -488,8 +504,8 @@ categories:
       "Bass tagelharpa played pizzicato."
     downloads:
     - label: "Instrument"
-      url: "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"   
-      
+      url: "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+
 - name: "Guitars"
   page: "guitars"
   instruments:
@@ -562,7 +578,7 @@ categories:
       samplerate: "44.1"
       size: "716 MB"
       short_description: ""
-              
+
   - name:    "Glockenskull Guitar"
 #   page:    "glockenskull_guitar"
     version: "1.000"
@@ -573,7 +589,7 @@ categories:
     download_size: "2 GB"
     short_description:
       "Late Soviet electric guitar."
-               
+
   - name:    "Secret Agent Guitar"
 #   page:    "secret_agent_guitar"
     version: "1.000"
@@ -583,8 +599,8 @@ categories:
     url:     "https://shop.karoryfer.com/products/secret-agent-guitar"
     download_size: "3.7 GB"
     short_description:
-      "12-string hollowbody electric guitar made in 1972 in Poland."     
-                    
+      "12-string hollowbody electric guitar made in 1972 in Poland."
+
   - name:    "Snowkiss Guitar"
 #   page:    "snowkiss_guitar"
     version: "1.000"
@@ -595,7 +611,7 @@ categories:
     download_size: "5.6 GB"
     short_description:
       "Boutique Jazzmaster-style guitar with extended techinques."
-      
+
   - name:    "Black_And_Green_Guitars"
 #   page:    "bng_guitars"
     author:  "Karoryfer Samples"
@@ -607,8 +623,8 @@ categories:
       "Two hollowbody electric guitars."
     downloads:
     - label: "Instrument"
-      url: "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"   
-            
+      url: "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
+
 - name: "Keyboards"
   page: "keyboards"
   instruments:
@@ -649,7 +665,9 @@ categories:
     url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
     download_size: "50 MB"
     short_description:
-      "Marimba sampled in stereo with 3 velocity layers, every note sampled.  Converted from the original GigaSampler version by S. Christian Collins www.schristiancollins.com"
+      "Marimba sampled in stereo with 3 velocity layers, every note sampled.
+      Converted from the original GigaSampler version
+      by S. Christian Collins www.schristiancollins.com"
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
@@ -720,7 +738,7 @@ categories:
       samplerate: "44.1"
       size: "4.1 GB"
       short_description: "tar.gz archive"
-      
+
   - name:    "Orcophony"
 #   page:    "orcophony"
     version: "1.000"
@@ -731,7 +749,7 @@ categories:
     download_size: "7.6 GB"
     short_description:
       "A medieval-fantasy collection with a goblin theme."
-            
+
   - name:    "The Halfling"
 #   page:    "the_halfling"
 #   version: ""
@@ -846,7 +864,8 @@ categories:
     url:     "https://shop.karoryfer.com/pages/free-gogodze-phu-vol-i"
 #   download_size: ""
     short_description:
-      "A percussion collection with five bobobo drums from Ghana and a cajon recorded in Poland."
+      "A percussion collection with five bobobo drums from Ghana
+      and a cajon recorded in Poland."
 
   - name:    "Kitchen X"
     page:    "kitchen_x"
@@ -889,7 +908,7 @@ categories:
     download_size: "1.4 GB"
     short_description:
       "Drums, bells and shakers from West Africa."
-      
+
   - name:    "Simple Tamb"
 #   page:    ""
 #   version: ""
@@ -899,8 +918,9 @@ categories:
 #   format:  ""
     url:     "https://tkd-sound.booth.pm/items/2477823"
 #   download_size: ""
-    short_description: "Tambourine samples. Kontakt version also included. Free demo version available."
-      
+    short_description:
+      "Tambourine samples. Kontakt version also included. Free demo version available."
+
   - name:    "RawCowbell"
 #   page:    ""
 #   version: ""
@@ -910,8 +930,9 @@ categories:
 #   format:  ""
     url:     "https://tkd-sound.booth.pm/items/2461913"
 #   download_size: ""
-    short_description: "Three cowbells. Kontakt version also included. Free demo version available."
-          
+    short_description:
+      "Three cowbells. Kontakt version also included. Free demo version available."
+
   - name:    "Castanets"
 #   page:    ""
 #   version: ""
@@ -921,7 +942,8 @@ categories:
 #   format:  ""
     url:     "https://tkd-sound.booth.pm/items/1754433"
 #   download_size: ""
-    short_description: "Castanets. Kontakt version also included. Free demo version available."
+    short_description:
+      "Castanets. Kontakt version also included. Free demo version available."
 
   - name:    "BJDNielPercussions"
     page:    "bjdnielpercussions"
@@ -932,14 +954,16 @@ categories:
     format:  "wav"
     url:     "https://YGGDRASIL-STUDIO.GitHub.io/BJDNielSounds"
     download_size: "4.17 MB"
-    short_description: "Unique percussion sound samples such as kick stomps, joint, claps, uke spike, nutshell waistband, and hand shaker made with Ball-Jointed Doll Niel."
+    short_description:
+      "Unique percussion sound samples such as kick stomps, joint, claps, uke spike,
+      nutshell waistband, and hand shaker made with Ball-Jointed Doll Niel."
     downloads:
     - label: "Instrument"
       url: "https://github.com/YGGDRASIL-STUDIO/BJDNielSounds/releases/download/v1.0.0/BJDNielPercussions.tar.gz"
       format: "wav (24bit)"
       samplerate: "192"
       size: "4.17 MB"
-    
+
 - name: "Pianos"
   page: "pianos"
   instruments:
@@ -986,7 +1010,7 @@ categories:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
       format: "flac (16bit)"
-      samplerate: 44.1"
+      samplerate: "44.1"
       size: "18 MB"
       short_description: ""
 
@@ -1006,7 +1030,7 @@ categories:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/jlearman.jRhodes3d/archive/refs/heads/master.zip"
       format: "flac (16bit)"
-      samplerate: 44.1"
+      samplerate: "44.1"
       size: "92 MB"
       short_description: ""
 
@@ -1105,7 +1129,7 @@ categories:
 #   download_size: ""
     short_description:
       "Steinway Model D. Compact sforzando version of larger Kontakt library."
-      
+
   - name:    "Death Piano"
 #   page:    "death_piano"
 #   version: ""
@@ -1125,7 +1149,7 @@ categories:
 #   download_size: ""
     short_description:
       "Yamaha C7. Compact sforzando version of larger Kontakt library."
-      
+
   - name:    "Estate Grand"
 #   page:    "estate_grand"
 #   version: ""
@@ -1135,7 +1159,7 @@ categories:
     download_size: "3.9 GB"
     short_description:
       "Kawai GS 60."
-       
+
   - name:    "Estate Grand LE"
 #   page:    "estate_grand_le"
 #   version: ""
@@ -1155,7 +1179,7 @@ categories:
 #   download_size: ""
     short_description:
       "Classic electric piano."
-      
+
 - name: "Strings"
   page: "strings"
   instruments:
@@ -1217,8 +1241,8 @@ categories:
     url:     "https://shop.karoryfer.com/products/vengeful-cello"
     download_size: "1.8 GB"
     short_description:
-      "Cello with a wide range of extended techniques and bonus string-based synthesizer."      
-      
+      "Cello with a wide range of extended techniques and bonus string-based synthesizer."
+
   - name:    "Vengeful Viola"
 #   page:    "vengeful_viola"
     version: "1.000"
@@ -1228,7 +1252,7 @@ categories:
     download_size: "750 MB"
     short_description:
       "Viola with a wide range of extended techniques."
-      
+
   - name:    "Vengeful Violin"
 #   page:    "vengeful_violin"
     version: "1.000"
@@ -1238,7 +1262,7 @@ categories:
     download_size: "900 MB"
     short_description:
       "Violin with a wide range of extended techniques."
-      
+
   - name:    "Sneakybass"
 #   page:    "sneakybass"
     author:  "Karoryfer Samples"
@@ -1250,8 +1274,8 @@ categories:
       "Double bass played pizzicato at very quiet volume."
     downloads:
     - label: "Instrument"
-      url: "https://github.com/sfzinstruments/karoryfer.sneakybass/releases/download/v1.000/Sneakybass_v1.000.zip" 
-      
+      url: "https://github.com/sfzinstruments/karoryfer.sneakybass/releases/download/v1.000/Sneakybass_v1.000.zip"
+
 - name: "Synthesizers"
   page: "synthesizers"
   instruments:
@@ -1277,7 +1301,7 @@ categories:
     short_description:
       "A totally anachronistic synthesizer made from samples of a Unitra B 11
       transistor organ made in Poland in 1983."
-      
+
 - name: "Vocals"
   page: "vocals"
   instruments:
@@ -1292,7 +1316,7 @@ categories:
 #   download_size: ""
     short_description:
       "This is an early predecessor to Marie Ork. Samples of female death metal vocals."
-                            
+
   - name:    "Hster"
 #   page:    "hster"
     version: "1.000"
@@ -1303,7 +1327,7 @@ categories:
     download_size: "1 GB"
     short_description:
       "Mezzosoprano vocal singing in reconstructed Proto-Indo-European."
-      
+
   - name:    "Hadzi-Fia"
 #   page:    "hadzi_fia"
     version: "1.000"
@@ -1314,7 +1338,7 @@ categories:
     download_size: "1.6 GB"
     short_description:
       "Deep male solo vocal singing in the Ewe language from West Africa."
-      
+
   - name:    "Hadzi-Hevi"
 #   page:    "hadzi_hevi"
     version: "1.000"
@@ -1325,7 +1349,7 @@ categories:
     download_size: "1.5 GB"
     short_description:
       "Female solo vocal singing in the Ewe language from West Africa."
-            
+
   - name:    "Torgbe"
 #   page:    "torgbe"
     version: "1.000"
@@ -1336,7 +1360,7 @@ categories:
     download_size: "1 GB"
     short_description:
       "Male choir singing in the Ewe, Akan and Ga-Adangbe and languages from West Africa."
-      
+
   - name:    "Hadziha"
 #   page:    "hadziha"
     version: "1.000"
