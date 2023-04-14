@@ -922,23 +922,6 @@ categories:
     url:     "https://tkd-sound.booth.pm/items/1754433"
 #   download_size: ""
     short_description: "Castanets. Kontakt version also included. Free demo version available."
-
-  - name:    "BJDNielPercussions"
-    page:    "bjdnielpercussions"
-    version: "1.0.0"
-    author:  "Yi Yunseok"
-    license: "CC-BY-SA-4.0"
-    samplerate: "192"
-    format:  "wav"
-    url:     "https://YGGDRASIL-STUDIO.GitHub.io/BJDNielSounds"
-    download_size: "4.17 MB"
-    short_description: "Unique percussion sound samples such as kick stomps, joint, claps, uke spike, nutshell waistband, and hand shaker made with Ball-Jointed Doll Niel."
-    downloads:
-    - label: "Instrument"
-      url: "https://github.com/YGGDRASIL-STUDIO/BJDNielSounds/releases/download/v1.0.0/BJDNielPercussions.tar.gz"
-      format: "wav (24bit)"
-      samplerate: "192"
-      size: "4.17 MB"
     
 - name: "Pianos"
   page: "pianos"
@@ -986,7 +969,7 @@ categories:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/jlearman.jRhodes3c/archive/refs/heads/master.zip"
       format: "flac (16bit)"
-      samplerate: "44.1"
+      samplerate: 44.1"
       size: "18 MB"
       short_description: ""
 
@@ -1006,7 +989,7 @@ categories:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/jlearman.jRhodes3d/archive/refs/heads/master.zip"
       format: "flac (16bit)"
-      samplerate: "44.1"
+      samplerate: 44.1"
       size: "92 MB"
       short_description: ""
 
