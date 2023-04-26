@@ -19,6 +19,9 @@
 - name: "Ivy Audio"
   url: "http://ivyaudio.com/"
 
+- name: "KeyPleezer"
+  url: "https://keypleezer.com/"
+
 - name: "Markus Fiedler"
   url: "https://www.fiedler-audio.de/"
 
