@@ -996,6 +996,23 @@ categories:
     download_size: "156.2 MB"
     short_description:
       "Yamaha C3 Grand Piano."
+      
+  - name:    "LivingRoom Upright - Micro SFZ"
+    page:    "livingroom_upright_micro_sfz"
+#   version: ""
+    author:  "KeyPleezer"
+    license: "CC-BY-SA-4.0"
+    url:     "https://keypleezer.com/livingroom-upright-piano/free-edition/micro-sfz/"
+    download_size: "107 MB"
+    short_description:
+      "Micro free version of [LivingRoom Upright Piano, a sampled character upright piano](https://keypleezer.com/livingroom-upright-piano/)."
+    downloads:
+    - label: "Download Micro SFZ edition"
+      url: "https://keypleezer.com/livingroom-upright-piano/free-edition/micro-sfz/"
+      format: "FLAC"
+      samplerate: "44.1"
+      size: "107 MB"
+      short_description: ""
 
   - name:    "jRhodes3c"
     page:    "jrhodes3c"
