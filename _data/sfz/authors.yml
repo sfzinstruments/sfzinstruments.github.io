@@ -22,6 +22,9 @@
 - name: "KeyPleezer"
   url: "https://keypleezer.com/"
 
+- name: "Malaclypse the Younger"
+  url: "https://mal-2.bandcamp.com/"
+  
 - name: "Markus Fiedler"
   url: "https://www.fiedler-audio.de/"
 
