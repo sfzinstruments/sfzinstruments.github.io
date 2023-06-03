@@ -122,6 +122,20 @@ categories:
     short_description:
       "1972 Polish hollowbody bass guitar."
 
+  - name:    "Kalimbass"
+    version: "1.23.06a"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/Kalimbass"
+    short_description:
+      "Electric kalimba bass."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/Kalimbass/releases/download/v1.23.06a/Kalimbass.1.23.06a.rar"
+      format: "flac"
+      samplerate: "48"
+      short_description: ""
+      
 - name: "Brass"
   page: "brass"
   instruments:
@@ -624,7 +638,21 @@ categories:
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.black-and-green-guitars/releases/download/v1.000/Karoryfer_Black_And_Green_Guitars_1000.zip"
-
+      
+  - name:    "Blue Jeans And Moonbeams"
+    version: "4.23.04"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/Blue-Jeans-and-Moonbeams"
+    short_description:
+      "Electric and acoustic guitar."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/Blue-Jeans-and-Moonbeams/releases/download/v4.23.04/BJAM.4.23.04.rar"
+      format: "flac"
+      samplerate: "48"
+      short_description: ""
+      
 - name: "Keyboards"
   page: "keyboards"
   instruments:
@@ -964,6 +992,34 @@ categories:
       samplerate: "192"
       size: "4.17 MB"
 
+  - name:    "The Clap"
+    version: "1.22.07"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/The-Clap"
+    short_description:
+      "Hand percussion simulating a drum kit."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/The-Clap/releases/download/v1.22.07/The.Clap.1.22.07.rar"
+      format: "flac"
+      samplerate: "48"
+      short_description: ""
+      
+  - name:    "Breezy Day"
+    version: "2.21.08"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/Breezy-Day"
+    short_description:
+      "Wind chime."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/Breezy-Day/releases/download/v2.21.08/Breezy.Day.2.21.08.rar"
+      format: "flac"
+      samplerate: "48"
+      short_description: ""
+      
 - name: "Pianos"
   page: "pianos"
   instruments:
@@ -1319,7 +1375,21 @@ categories:
     short_description:
       "A totally anachronistic synthesizer made from samples of a Unitra B 11
       transistor organ made in Poland in 1983."
-
+      
+  - name:    "Tofurkey"
+    version: "1.20.12"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/Tofurkey"
+    short_description:
+      "No-sample synth."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/Tofurkey/releases/download/v1.20.12/Tofurkey.1.20.12.rar"
+      format: ""
+      samplerate: ""
+      short_description: ""
+      
 - name: "Vocals"
   page: "vocals"
   instruments:
@@ -1447,3 +1517,17 @@ categories:
 #   download_size: ""
     short_description:
       "Alto saxophone sample library."
+              
+  - name:    "Party Pipes"
+    version: "1.20.12"
+    author:  "Malaclypse the Younger"
+    license: "MIT"
+    url:     "https://github.com/Mal2-ksc/Party-Pipes"
+    short_description:
+      "Wind instruments, some common and some whimsical."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/Mal2-ksc/Party-Pipes/releases/download/v2.23.05/Party.Pipes.2.23.05.rar"
+      format: "flac"
+      samplerate: "48"
+      short_description: ""
