@@ -40,6 +40,22 @@ categories:
       size: "160 MB"
       short_description: ""
 
+  - name:    "Black And Blue Basses"
+    version: "1.001"
+    author:  "Karoryfer Samples"
+    license: "CC0-1.0"
+    url:     "https://karoryfer-samples.myshopify.com/pages/free-black-and-blue-basses"
+    download_size: "961 MB"
+    short_description:
+      "Two 5-string bass guitars."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/karoryfer.black-and-blue-basses/releases/download/v1.001/Black_And_Blue_Basses_1001.zip"
+      format: "wav"
+      samplerate: "44.1"
+      size: "961 MB"
+      short_description: ""
+
   - name:    "Pastabass"
 #   page:    "pastabass"
     version: "1.101"
