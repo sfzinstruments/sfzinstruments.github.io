@@ -1,7 +1,5 @@
 /.bootstrap/
 /_site/
-/docs/assets/css/*
-/docs/assets/js/*
+/docs/assets/fonts/
 /docs/info/
-!/docs/assets/js/color-modes.js
 __pycache__/

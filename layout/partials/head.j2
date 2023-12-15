@@ -23,16 +23,17 @@
 		{% include "partials/favicons.j2" %}
 		<!-- Stylesheets -->
 		<link href="{{ 'assets/css/style.min.css'|url }}" rel="stylesheet" media="screen">
+		<link href="{{ 'assets/css/fork-awesome.min.css'|url }}" rel="stylesheet" media="screen">
 		<link href="{{ 'assets/css/bootstrap-table.min.css'|url }}" rel="stylesheet">
 		<link href="{{ 'assets/css/bootstrap-table-filter-control.min.css'|url }}" rel="stylesheet">
-
-{# <link href="{{ 'assets/css/fontawesome.min.css'|url }}" rel="stylesheet" media="screen"> #}
+{#	<link href="{{ 'assets/css/fontawesome.min.css'|url }}" rel="stylesheet" media="screen"> #}
 
 		{%-for style in page.meta.styles-%}
 		{%- set href = 'assets/css/' + style + '.css' %}
 		<link href="{{ href|url }}" rel="stylesheet">
 		{% endfor %}
 		{%-include "partials/custom-styles.html" %}
-
+{#	Disabled, seems having downloading issues elsewhere (GH Actions)
 		<!-- Font Awesome Icons -->
 		<script src="{{ 'assets/js/fontawesome.min.js'|url }}"></script>
+#}

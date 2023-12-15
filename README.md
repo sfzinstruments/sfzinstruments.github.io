@@ -14,7 +14,7 @@ The website is built using the following software and technologies:
 - [AnchorJS] anchors headings, MIT license
 - [Bootstrap] UI toolkit, code under MIT license, docs under [Creative Commons]
 - [Favicon Generator] for favicons
-- [Font Awesome] for icons, [SIL OFL 1.1] license
+- [Fork Awesome] for icons, [SIL OFL 1.1] license
 - [highlight.js] for syntax highlighting, BSD 3-Clause license
 - [Markdown] markup language
 - [MKDocs] static website generator, BSD-2-Clause license
@@ -56,6 +56,7 @@ See [LICENSE] file for details.
 [Discord]:            https://discord.gg/t7nrZ6d
 [Favicon Generator]:  https://realfavicongenerator.net/
 [Font Awesome]:       https://fontawesome.io/
+[Fork Awesome]:       https://forkaweso.me/Fork-Awesome/
 [front-matter]:       https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data
 [highlight.js]:       https://highlightjs.org/
 [LICENSE]:            LICENSE

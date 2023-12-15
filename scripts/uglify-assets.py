@@ -13,7 +13,7 @@ def silentremove(filename):
 
 def css_compile():
   source = ".assets/scss/style.scss"
-  dest   = "mkdocs/docs/assets/css/style.min.css"
+  dest   = "docs/assets/css/style.min.css"
 
   silentremove(dest)
   silentremove(dest + ".map")
@@ -28,7 +28,7 @@ def js_uglify():
   sourcedir = ".assets/js/"
   for filename in os.listdir(sourcedir):
     source = sourcedir + filename
-    dest   = "mkdocs/docs/assets/js/" + os.path.splitext(filename)[0] + ".min.js"
+    dest   = "docs/assets/js/" + os.path.splitext(filename)[0] + ".min.js"
     silentremove(dest)
     process_single_js_file(source, output_path=dest)
 
