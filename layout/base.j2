@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html
+	lang="{{ config.theme.locale|default('en') }}"
+	data-bs-theme="auto"
+>
+	<head>
+		{%- include "partials/head.j2" %}
+	</head>
+	{%- if page.classes %}
+	<body class="{{ page.classes|join(' ') }}">
+	{%- else %}
+	<body>
+	{%- endif %}
+		<button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+		<div class="container">
+			{%- include "partials/header.html" %}
+			{%- include "partials/navigation.j2" %}
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article>
+						{%- if not page.meta.no_title_header %}<h1>{{ page.title }}</h1>{%- endif %}
+						{{- page.content }}
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+						{%- if page.meta.cards %}
+							{%- include page.meta.cards %}
+						{%- else %}
+							{%- include "partials/cards.j2" %}
+						{%endif%}
+					</aside>
+				</div>
+			</div>
+			{%- include "partials/footer.j2" %}
+		</div>
+		{%- include "partials/scripts.j2" %}
+		{%- if 'search' in config['plugins'] %}
+			{%- include "partials/search-modal.html" %}
+		{%- endif %}
+		{%- include "partials/keyboard-modal.html" %}
+	</body>
+</html>

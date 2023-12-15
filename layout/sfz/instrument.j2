@@ -1,0 +1,130 @@
+{%-set sfz_instruments_layout = load_yaml(config.extra.sfz_instruments_layout) %}
+{%-set sfz_authors_layout     = load_yaml(config.extra.sfz_authors_layout) %}
+
+{%-set category_page = page.file.url.split('/') | first %}
+{%-set instrument_id = page.file.url.split('/')[1] %}
+{%-set category_url = '/' + category_page + '/' %}
+{%-set category   = sfz_instruments_layout | selectattr("page", "equalto", category_page)     | list | first or '' %}
+{%-set instrument = category.instruments   | selectattr("page", "equalto", instrument_id)     | list | first or '' %}
+{%-set author     = sfz_authors_layout     | selectattr("name", "equalto", instrument.author) | list | first or '' %}
+
+{%-if author %}
+	{%-set instrument_author = '<a href="' + author.url + '">' + author.name + '</a>' %}
+{%-else %}
+	{%-set instrument_author = instrument.author %}
+{%-endif %}
+
+<h4>
+  <a href="{{ '/' }}">Instruments</a>
+| <a href="{{ category_url }}">{{ category.name }}</a>
+| <a href="{{ instrument.url }}">{{ instrument.name }}</a>
+</h4>
+
+<p>{{ instrument.short_description }}</p>
+
+{%-set root_dir = page.file.abs_src_path | replace(page.file.src_uri, '') %}
+{%-set audio_preview = "/assets/audio/" + category.page + '/' + instrument_id + ".mp3" %}
+{%-set image_preview = "/assets/img/" + category.page + '/' + instrument_id + ".jpg" %}
+
+{%-if path_exists(root_dir + image_preview) %}
+<p><img src="{{ image_preview }}" class="img-fluid" /></p>
+{%-endif %}
+
+{{- page.content }}
+
+{%-if path_exists(root_dir + audio_preview) %}
+<h4 id="audio_example">Audio Example</h4>
+<audio src="{{ audio_preview }}" controls preload></audio>
+{%-endif %}
+
+<h2 id="info">Info</h2>
+<table class="table table-sm table-hover table-striped table-responsive">
+	<tr class="table-bordered">
+		<th>Author</th>
+		<td>{{ instrument_author }}</td>
+	</tr>
+{%-if instrument.license %}
+	<tr class="table-bordered">
+		<th>License</th>
+		<td>{{ instrument.license }}</td>
+	</tr>
+{%-endif %}
+{%-if instrument.download_size %}
+	<tr class="table-bordered">
+		<th>Size</th>
+		<td>{{ instrument.download_size }}</td>
+	</tr>
+{%-endif %}
+{%-if instrument.format %}
+	<tr class="table-bordered">
+		<th>Format</th>
+		<td>{{ instrument.format }}</td>
+	</tr>
+{%-endif %}
+{%-if instrument.samplerate %}
+	<tr class="table-bordered">
+		<th>Samplerate</th>
+		<td>{{ instrument.samplerate }}</td>
+	</tr>
+{%-endif %}
+{%-if instrument.version %}
+	<tr class="table-bordered">
+		<th>Version</th>
+		<td>{{ instrument.version }}</td>
+	</tr>
+{%-endif %}
+</table>
+
+{%-if instrument.downloads|length %}
+<table class="table table-sm table-bordered table-hover table-striped table-responsive-xl">
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">Download</th>
+			<th scope="col">Format</th>
+			<th scope="col">Samplerate</th>
+			<th scope="col">Size</th>
+			<th scope="col">Description</th>
+		</tr>
+	</thead>
+	<tbody>
+	{%-for download in instrument.downloads %}
+		{%-if download.label %}
+			{%-set label = "<a href=" + download.url + '>' + download.label + "</a>" %}
+		{%-else %}
+			{%-set label = '' %}
+		{%-endif %}
+
+		{%-if download.format %}
+			{%-set format = download.format %}
+		{%-else %}
+			{%-set format = '' %}
+		{%-endif %}
+
+		{%-if download.samplerate %}
+			{%-set samplerate = download.samplerate + " KHz" %}
+		{%-else %}
+			{%-set samplerate = '' %}
+		{%-endif %}
+
+		{%-if download.size %}
+			{%-set size = download.size %}
+		{%-else %}
+			{%-set size = '' %}
+		{%-endif %}
+
+		{%-if download.short_description %}
+			{%-set description = download.short_description %}
+		{%-else %}
+			{%-set description = '' %}
+		{%-endif %}
+		<tr>
+			<td>{{ label }}</td>
+			<td>{{ format }}</td>
+			<td>{{ samplerate }}</td>
+			<td>{{ size }}</td>
+			<td>{{ description }}</td>
+		</tr>
+	{%-endfor %}
+	</tbody>
+</table>
+{%-endif %}

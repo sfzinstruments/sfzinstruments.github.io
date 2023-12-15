@@ -1,0 +1,28 @@
+					{%- set cards = load_yaml(config.extra.cards) %}
+					{%- for card in cards %}
+						<div class="card mb-3">
+							<div class="card-header bg-dark text-bg-dark">
+								<i class="{{ card.icon_category }} fa-{{ card.icon_type }}"
+									aria-hidden="true"></i>
+								{{ card.label }}
+							</div>
+							<div class="card-body" style="padding: 0.5rem">
+								<ul class="nav nav-pills flex-column">
+								{%- for item in card.links %}
+									{%- if item.title %}
+										{%- set item_title = item.title %}
+									{%-else-%}
+										{%- set item_title = item.label-%}
+									{%-endif-%}
+									<li class="nav-item">
+										<a class="nav-link" href="{{ item.url }}"
+											title="{{ item_title }}" style="padding: 0.35rem 0.25rem">
+										<i class="{{ item.icon_category }} fa-{{ item.icon_type }} fa-fw"
+										aria-hidden="true"></i>
+										{{ item.label }}</a>
+									</li>
+								{%- endfor %}
+								</ul>
+							</div>
+						</div>
+					{%- endfor %}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>{{ config.site_name }} news</title>
+	<link href="{{ config.site_url + '/atom.xml' }}" rel="self"/>
+	<icon>{{ config.site_url + '/assets/ico/favicon.ico' }}</icon>
+	<link href="{{ config.site_url }}"/>
+	<updated>{{ now }}</updated>
+	<id>{{ config.site_url }}</id>
+{%- for post in site_posts[0:3] %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<author><name>{{ post.author }}</name></author>
+		<link href="{{ config.site_url + post.id + '/' }}"/>
+		<published>{{ post.date }}</published>
+		<id>{{ post.id }}</id>
+		<content type="html">{{ markdown(post.content) }}</content>
+	</entry>
+{%- endfor %}
+</feed>

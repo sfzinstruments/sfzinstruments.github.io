@@ -1,0 +1,16 @@
+{%- if config.site_favicon %}
+		<link rel="shortcut icon" href="{{ config.site_favicon|url }}">
+{%- elif config.theme.favicons %}
+		<!-- realfavicongenerator.net -->
+		<link rel="apple-touch-icon" sizes="{{ config.theme.favicons.apple_touch_icon_size }}" href="{{ 'assets/ico/apple-touch-icon.png'|url }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/ico/favicon-32x32.png'|url }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/ico/favicon-16x16.png'|url }}">
+		<link rel="manifest" href="{{ 'assets/ico/site.webmanifest'|url }}">
+		<link rel="mask-icon" href="{{ 'assets/ico/safari-pinned-tab.svg'|url }}" color="#5bbad5">
+		<link rel="shortcut icon" href="{{ 'assets/ico/favicon.ico'|url }}">
+		<meta name="msapplication-TileColor" content="{{ config.theme.favicons.msapp_tilecolor }}">
+		<meta name="msapplication-config" content="{{ 'assets/ico/browserconfig.xml'|url }}">
+		<meta name="theme-color" content="{{ config.theme.favicons.theme_color }}">
+{%- else %}
+		<link rel="shortcut icon" href="{{ 'img/favicon.ico'|url }}">
+{%- endif %}

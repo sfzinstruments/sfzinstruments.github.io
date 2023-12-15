@@ -1,0 +1,38 @@
+		<meta charset="utf-8">
+
+		<title>
+		{% if page and page.title and not page.is_homepage %}
+		{{ page.title }} -
+		{% endif %}
+		{{ config.site_name }}
+		</title>
+
+		{% if config.site_author %}
+		<meta name="author" content="{{ config.site_author }}">
+		{% endif %}
+		{%-if config.extra.site_web_author %}
+		<meta name="web-author" content="{{ config.extra.site_web_author }}">
+		{%-endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="{{ 'assets/js/color-modes.js'|url }}"></script>
+
+		<!-- Atom Feeds -->
+		<link href="{{ 'atom.xml'|url }}" rel="alternate" title="News"type="application/atom+xml" />
+
+		{% include "partials/favicons.j2" %}
+		<!-- Stylesheets -->
+		<link href="{{ 'assets/css/style.min.css'|url }}" rel="stylesheet" media="screen">
+		<link href="{{ 'assets/css/bootstrap-table.min.css'|url }}" rel="stylesheet">
+		<link href="{{ 'assets/css/bootstrap-table-filter-control.min.css'|url }}" rel="stylesheet">
+
+{# <link href="{{ 'assets/css/fontawesome.min.css'|url }}" rel="stylesheet" media="screen"> #}
+
+		{%-for style in page.meta.styles-%}
+		{%- set href = 'assets/css/' + style + '.css' %}
+		<link href="{{ href|url }}" rel="stylesheet">
+		{% endfor %}
+		{%-include "partials/custom-styles.html" %}
+
+		<!-- Font Awesome Icons -->
+		<script src="{{ 'assets/js/fontawesome.min.js'|url }}"></script>

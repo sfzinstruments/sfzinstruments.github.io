@@ -1,0 +1,51 @@
+/*
+	Bootstrap override variables for GitHub (dark) style
+
+	#0d1117 / rgba(13,17,23,0):
+	--color-scale-gray-9           --color-checks-ansi-black
+	--color-btn-danger-disabled-bg --color-btn-outline-disabled-bg
+	--color-canvas-default         --color-canvas-default-transparent
+	--color-codemirror-bg          --color-codemirror-guttermarker-text
+	--color-codemirror-gutters-bg  --color-codemirror-lines-bg
+	--color-header-search-bg       --color-page-header-bg
+	--color-project-header-bg      --color-segmented-control-button-bg
+	--color-switch-knob-bg         --color-switch-knob-checked-bg
+
+	#161b22 / rgba(22,27,34,0):
+	--color-scale-gray-8           --color-checks-ansi-black-bright
+	--color-canvas-overlay         --color-canvas-subtle
+	--color-btn-selected-bg        --color-checks-dropdown-bg
+	--color-checks-input-bg        --color-checks-step-header-open-bg
+	--color-header-bg              --color-menu-bg-active
+	--color-project-gradient-in    --color-project-gradient-out
+	--color-project-sidebar-bg     --color-switch-knob-checked-disabled-bg
+	--color-switch-knob-disabled-bg
+
+	#2f81f7 / rgba(47,129,247,0):
+	--color-accent-fg                     --color-checks-text-link
+	--color-checks-line-selected-num-text --color-checks-logline-command-text
+
+	#58a6ff / rgba(88,166,255,0):
+	--color-scale-blue-3           --color-ansi-blue     --color-checks-ansi-blue
+	--color-btn-outline-hover-text --color-btn-outline-text
+
+	#c9d1d9 / rgba(201,209,217,0):
+	--color-scale-gray-1 --color-btn-text
+	--color-prettylights-syntax-markup-bold
+	--color-prettylights-syntax-markup-italic
+	--color-prettylights-syntax-markup-ignored-text
+	--color-prettylights-syntax-storage-modifier-import
+*/
+$gray-900:              #212529 !default;
+$white:                 #fff    !default;
+$dark:                  #161b22 !default;
+$body-bg:               	$white !default;
+$body-bg-dark:          #0d1117;
+$body-color:            	$gray-900 !default;
+$body-color-dark:       #c9d1d9;
+/*
+	Custom variables
+*/
+$scrollbutton-bg:         rgba($white, 0.5);
+$scrollbutton-bg-hover:   rgba($white, 0.8);
+$scrollbutton-color:      rgba($dark, 0.5);
