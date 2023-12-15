@@ -74,10 +74,10 @@ def download_forkawesome():
 
 def download():
   css_urls = [
-    "https://unpkg.com/bootstrap-table@"         + versions["bootstrap-table"] + "/dist/bootstrap-table.min.css"
-    "https://unpkg.com/bootstrap-table@"         + versions["bootstrap-table"] + "/dist/extensions/filter-control/bootstrap-table-filter-control.min.css"
+    "https://unpkg.com/bootstrap-table@"         + versions["bootstrap-table"] + "/dist/bootstrap-table.min.css",
+    "https://unpkg.com/bootstrap-table@"         + versions["bootstrap-table"] + "/dist/extensions/filter-control/bootstrap-table-filter-control.min.css",
     "https://cdn.jsdelivr.net/npm/fork-awesome@" + versions["fa"]              + "/css/fork-awesome.min.css",
-    "https://cdn.jsdelivr.net/npm/fork-awesome@" + versions["fa"]              + "/css/fork-awesome.min.css.map"
+    "https://cdn.jsdelivr.net/npm/fork-awesome@" + versions["fa"]              + "/css/fork-awesome.min.css.map",
     "https://cdn.jsdelivr.net/npm/highlight.js@" + versions["hljs"]            + "/styles/github.min.css",
     "https://cdn.jsdelivr.net/npm/highlight.js@" + versions["hljs"]            + "/styles/github-dark-dimmed.min.css",
   ]
@@ -90,7 +90,6 @@ def download():
     "https://cdn.jsdelivr.net/npm/jquery@"    + versions["jquery"]          + "/dist/jquery.min.map",
     "https://unpkg.com/@popperjs/core@"       + versions["popper"]          + "/dist/umd/popper.min.js",
     "https://unpkg.com/@popperjs/core@"       + versions["popper"]          + "/dist/umd/popper.min.js.map",
-
     "https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@" + versions["hljs"] + "/highlight.min.js",
     "https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@" + versions["hljs"] + "/languages/bash.min.js",
     "https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@" + versions["hljs"] + "/languages/cpp.min.js",
