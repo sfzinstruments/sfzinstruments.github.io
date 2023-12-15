@@ -189,6 +189,53 @@
       size: "104 MB"
       short_description: ""
 
+  - name:    "Northern Trumpets"
+    author:  "VGTrumpet"
+    license: "Free"
+    url:     "https://vgtrumpet.com/product/northern-trumpets-sfz/"
+    download_size: "887 MB"
+    short_description: "Trumpet played by Vladimir Galaktionov."
+
+  - name:    "All SFZ Bundle"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/all-sfz-bundle/"
+    download_size: "3.21 GB"
+    short_description:
+      "8 SFZ sample libraries set up to work with MIDI, Wind and Breath controllers."
+
+  - name:    "VG Flugelhorn"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-flugelhorn-sfz/"
+    download_size: "511 MB"
+    short_description:
+      "All samples were played and recorded by Vladimir Galaktionov."
+
+  - name:    "VG Trombone"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-trombone-sfz/"
+    download_size: "337 MB"
+    short_description:
+      "All samples were played by Maxim Piganov."
+
+  - name:    "VG Trumpet Harmon muted"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-trumpet-harmon-muted-sfz/"
+    download_size: "272 MB"
+    short_description:
+      "All samples were played and recorded by Vladimir Galaktionov."
+
+  - name:    "VG Soul Trumpet"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-soul-trumpet-sfz/"
+    download_size: "210 MB"
+    short_description:
+      "All samples were played and recorded by Vladimir Galaktionov."
+
 - name: "Drums"
   page: "drums"
   instruments:
@@ -1562,3 +1609,35 @@
       format: "flac"
       samplerate: "48"
       short_description: ""
+
+  - name:    "VG Clarinet"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-clarinet-sfz/"
+    download_size: "491 MB"
+    short_description:
+      "All samples were played and recorded by Oleg Grymov."
+
+  - name:    "VG Alto Saxophone"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-alto-saxophone-sfz/"
+    download_size: "634 MB"
+    short_description: "Saxophone played by Alexandr Dovgopoly."
+
+  - name:    "VG Soprano Saxophone"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-soprano-saxophone-sfz/"
+    download_size: "397 MB"
+    short_description:
+      "All samples were played and recorded by Ivan Borodzhiev,
+      Petr Momchev and Andrea Sanchez."
+
+  - name:    "VG Tenor Saxophone"
+    author:  "VGTrumpet"
+    license: "Commercial"
+    url:     "https://vgtrumpet.com/product/vg-tenor-saxophone-sfz/"
+    download_size: "424 MB"
+    short_description:
+      "All samples were played and recorded by Mikhail Savin and Andrea Sanchez."

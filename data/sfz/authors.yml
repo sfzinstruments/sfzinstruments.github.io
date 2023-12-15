@@ -24,7 +24,7 @@
 
 - name: "Malaclypse the Younger"
   url: "https://mal-2.bandcamp.com/"
-  
+
 - name: "Markus Fiedler"
   url: "https://www.fiedler-audio.de/"
 
@@ -61,6 +61,9 @@
 - name: "Versilian Studios LLC"
   url: "https://vis.versilstudios.com/"
 
+- name: "VGTrumpet"
+  url: "https://vgtrumpet.com/sfz/"
+
 - name: "Wilkinson Audio"
   url: "https://wilkinsonaudio.com/"
 
@@ -69,22 +72,22 @@
 
 - name: "fisound"
   url: "https://fisound.com/"
-  
+
 - name: "Production Voices"
   url: "https://productionvoices.com/"
-  
+
 - name: "Wave Alchemy"
   url: "https://www.wavealchemy.co.uk/"
-  
+
 - name: "Samples From Mars"
   url: "https://samplesfrommars.com/"
-  
+
 - name: "Bedroom Producers Blog"
   url: "https://bedroomproducersblog.com/"
-  
+
 - name: "Inventor eFX"
   url: "https://www.invntefx.com/"
-  
+
 - name: "Musical Artifacts"
   url: "https://musical-artifacts.com/"
 
