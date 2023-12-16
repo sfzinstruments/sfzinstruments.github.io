@@ -50,3 +50,8 @@
     url: "https://freepats.zenvoid.org/"
     icon_type: "download"
     icon_category: "fa"
+
+  - label: "Nils Hilbricht' sfz sampled instruments list"
+    url: "https://hilbricht.net/foss-sampled-instruments.html"
+    icon_type: "book"
+    icon_category: "fa"
