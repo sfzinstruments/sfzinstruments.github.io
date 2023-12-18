@@ -35,21 +35,24 @@
 						class="navbar-brand"
 						href="{{ base_dir|url }}"
 						>
+						{%-if config.extra.show_logo %}
 							<img
 								alt="Logo image"
-								src="{{ 'assets/img/logo-white.png'|url }}"
+								src="{{ 'assets/img/logo-white.svg'|url }}"
 							/>
-						{# config.site_name #}
+						{%-endif %}
+						{%-if config.extra.show_name %}
+						{{ config.site_name }}
+						{%-endif %}
 					</a>
 
 					<div class="collapse navbar-collapse" id="navbarContent">
-
-						{%- set navigation = load_yaml(config.extra.nav) %}
-						{%- if navigation %}
 						<ul class="navbar-nav me-auto mt-2 mt-lg-0">
-							{%- for item in navigation %}
-								{%- if item.type == "dropdown" %}
-									{% set item_id = 'navbar' + item.label %}
+						{%-set navigation = load_yaml(config.extra.nav) %}
+						{%-if navigation %}
+							{%-for item in navigation %}
+								{%-if item.type == "dropdown" %}
+									{%-set item_id = 'navbar' + item.label %}
 							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
@@ -71,12 +74,12 @@
 									class="dropdown-menu"
 									aria-labelledby="{{ item_id }}"
 								>
-									{%- for subitem in item.pages %}
-										{%- if not subitem.label %}
+									{%-for subitem in item.pages %}
+										{%-if not subitem.label %}
 									<div class="dropdown-divider"></div>
-										{%- else %}
-											{%- set disabled = "" %}
-											{%- if subitem.disabled %}{%- set disabled = " disabled" %}{%- endif %}
+										{%-else %}
+											{%-set disabled = "" %}
+											{%-if subitem.disabled %}{%-set disabled = " disabled" %}{%-endif %}
 									<li>
 										<a class="dropdown-item{{ disabled }}"
 											href="{{ subitem.url|url }}"
@@ -86,49 +89,49 @@
 												class="{{ subitem.icon_category }} fa-{{ subitem.icon_type }} fa-fw"
 												aria-hidden="true"
 											></i>&nbsp;
-											{%- endif %}
+											{%-endif %}
 											{{ subitem.label }}
 										</a>
 									</li>
-										{%- endif %}
-									{%- endfor %}
+										{%-endif %}
+									{%-endfor %}
 								</ul>
-								{%- else %}
+								{%-else %}
 							<li class="nav-item">
 								<a
 									class="nav-link"
 									href="{{ item.url|url }}"
 								>
-										{%- if item.icon_type %}
+										{%-if item.icon_type %}
 									<i class="{{ item.icon_category }} fa-{{ item.icon_type }} fa-fw"
 										aria-hidden="true"></i>&nbsp;
-										{%- endif %}
+										{%-endif %}
 									{{ item.label }}
 								</a>
-								{%- endif %}
+								{%-endif %}
 							</li>
-							{%- endfor %}
+							{%-endfor %}
 						</ul>
-						{%- else %}
+						{%-else %}
 						{#
 							No navigation, make a stretched spacer to move
 							search and color scheme dropdown menu on the right
 						#}
 						<ul class="navbar-nav me-auto"></ul>
-						{%- endif %}
+						{%-endif %}
 						<ul class="navbar-nav">
 						{# Global Download ?
 							<li class="nav-item">
 								<a class="nav-link"
 									href="{{ 'downloads'|url }}"
 								>
-									<i class="fas fa-download fa-fw" aria-hidden="true"></i>
+									<i class="fa fa-download fa-fw" aria-hidden="true"></i>
 									Download
 								</a>
 							</li>
 						#}
-						{%- block search_button %}
-							{%- if 'search' in config['plugins'] %}
+						{%-block search_button %}
+							{%-if 'search' in config['plugins'] %}
 							<li class="nav-item">
 									<a
 										href="#"
@@ -138,8 +141,8 @@
 											<i class="fa fa-search"></i> Search
 									</a>
 							</li>
-							{%- endif %}
-						{%- endblock %}
+							{%-endif %}
+						{%-endblock %}
 							<li class="nav-item dropdown">
 								<button
 									class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"

@@ -4,7 +4,7 @@
   links:
   - label: "Discord Chat"
     url: "https://discord.gg/t7nrZ6d"
-    icon_type: "discord"
+    icon_type: "discord-alt"
     icon_category: "fa"
 
   - label: "IRC"

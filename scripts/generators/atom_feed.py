@@ -15,7 +15,7 @@ from markdown import markdown
 with open("mkdocs.yml") as f:
   config = yaml.load(f, Loader=yaml.FullLoader)
 
-with mkdocs_gen_files.open("atom.xml", "r") as f:
+with mkdocs_gen_files.open("templates/atom.xml", "r") as f:
   content = f.read()
 
 posts_dir = os.path.abspath("docs/news/posts/")

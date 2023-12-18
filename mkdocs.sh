@@ -24,14 +24,14 @@ if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
 fi
 
 if [ ! -f "docs/assets/css/style.min.css" ] || [ "$1" == "-a" ] || [ "$1" == "--assets" ]; then
-	poetry run python3 scripts/download.py
-	poetry run python3 scripts/uglify-assets.py
+	poetry run python3 scripts/assets/download.py
+	poetry run python3 scripts/assets/uglify.py
 	exit 0
 fi
 
 if [ "$1" == "-i" ] || [ "$1" == "--install" ]; then
 	poetry lock
-	poetry install
+	poetry install --no-root
 	exit 0
 fi
 

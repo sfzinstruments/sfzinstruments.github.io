@@ -2,39 +2,47 @@ docs_dir:         "docs"
 site_name:        "SFZ Instruments"
 site_author:      "SFZ Instruments Organization"
 site_url:         "https://sfzinstruments.github.io"
-site_dir:         "_site"
 site_description: "SFZ instruments website"
+site_dir:         "_site"
 repo_name:        "GitHub"
 repo_url:         "https://github.com/sfzinstruments/sfzinstruments.github.io"
 edit_uri:         "edit/master/docs/"
 remote_branch:    "www"
 extra:
-  site_since:      "2020"
-  site_web_author: "SFZ Instruments Organization"
-  repo_owner_url:  "https://github.com/sfzinstruments"
-  repo_branch:     "master"
-  cards:           "data/layout/cards.yml"
-  nav:             "data/layout/navigation.yml"
-# TODO: data for both documentation and layout (currently using macros plugin)?
+  site_since:             2020
+  site_web_author:        "SFZ Instruments Organization"
+  show_logo:              true
+  show_name:              false
+  repo_owner_url:         "https://github.com/sfzinstruments"
+  repo_branch:            "master"
+  cards:                  "data/layout/cards.yml"
+  nav:                    "data/layout/navigation.yml"
   sfz_authors_layout:     "data/sfz/authors.yml"
   sfz_instruments_layout: "data/sfz/instruments.yml"
+extra_css:
+- "assets/css/bootstrap-table.min.css"
+- "assets/css/bootstrap-table-filter-control.min.css"
+- "assets/css/fork-awesome.min.css"
+extra_javascript:
+- "assets/js/bootstrap-table.min.js"
+- "assets/js/bootstrap-table-filter-control.min.js"
 hooks:
-- scripts/hooks.py
+- "scripts/hooks.py"
 markdown_extensions:
 - pymdownx.emoji:
     emoji_generator: !!python/name:pymdownx.emoji.to_png
-    alt: short
+    alt: "short"
     options:
       attributes:
-        align: absmiddle
-        height: 20px
-        width: 20px
+        align: "absmiddle"
+        height: "20px"
+        width:  "20px"
 plugins:
   search: {}
   blogging:
     dirs:
-    - news/posts
-    locale: en
+    - "news/posts"
+    locale: "en"
     full_content: true
     paging: true
     show_total: false
@@ -44,17 +52,19 @@ plugins:
     time_format: "%Y-%m-%d %H:%M:%S"
   exclude: # TODO: to remove when 1.5 comes out
     glob:
+    - "docs/templates"
     - "*.j2"
+  gen-files:
+    scripts:
+    - scripts/generators/atom_feed.py
   macros:
     include_yaml:
+    # TODO: data for both documentation and layout (currently using macros plugin)?
     - sfz_authors_macros:     "data/sfz/authors.yml"
     - sfz_instruments_macros: "data/sfz/instruments.yml"
     include_dir: "macros/includes"
-    module_name: "macros/module"
+  # module_name: "macros/module"
     verbose: true
-  gen-files:
-    scripts:
-    - scripts/generate_atom.py
 theme:
   name:        null
   custom_dir: "layout"
@@ -74,7 +84,7 @@ theme:
     previous:  80 # p
     search:    83 # s
 watch:
-- data
-- docs
-- macros/includes
-- layout
+- "data"
+- "docs"
+- "macros/includes"
+- "layout"
