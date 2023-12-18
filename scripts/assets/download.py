@@ -13,7 +13,7 @@ versions = {
   "fa":              "1.2.0",
   "hljs":            "11.8.0",
   "jquery":          "3.6.0",
-# "mermaid":         "10.6.1",
+  "mermaid":         "10.6.1",
   "popper":          "2.11.8"
 }
 
@@ -85,7 +85,7 @@ def download():
     "https://unpkg.com/bootstrap-table@"                    + versions["bootstrap-table"] + "/dist/extensions/filter-control/bootstrap-table-filter-control.min.js",
     "https://cdn.jsdelivr.net/npm/jquery@"                  + versions["jquery"]          + "/dist/jquery.min.js",
     "https://cdn.jsdelivr.net/npm/jquery@"                  + versions["jquery"]          + "/dist/jquery.min.map",
-#   "https://cdn.jsdelivr.net/npm/mermaid@"                 + versions["mermaid"]         + "/dist/mermaid.min.js",
+    "https://cdn.jsdelivr.net/npm/mermaid@"                 + versions["mermaid"]         + "/dist/mermaid.min.js",
     "https://unpkg.com/@popperjs/core@"                     + versions["popper"]          + "/dist/umd/popper.min.js",
     "https://unpkg.com/@popperjs/core@"                     + versions["popper"]          + "/dist/umd/popper.min.js.map",
     "https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@" + versions["hljs"]            + "/highlight.min.js",
