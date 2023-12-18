@@ -1,7 +1,5 @@
 name: Deploy site
 on: [push]
-permissions:
-  contents: write
 jobs:
   deploy:
     name: Linux Ubuntu 22.04
@@ -28,5 +26,13 @@ jobs:
         run: poetry run python3 scripts/assets/download.py
       - name: Build assets
         run: poetry run python3 scripts/assets/uglify.py
-      - name: Build and deploy
-        run: poetry run mkdocs gh-deploy --force
+      - name: Build site
+        run: poetry run mkdocs build
+      - name: Upload to GitHub pages
+        if: github.ref_name == 'master' && github.event_name != 'pull_request'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: www
+          publish_dir: ./_site
+          force_orphan: true
