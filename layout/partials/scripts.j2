@@ -2,16 +2,15 @@
 			var base_url	= {{ base_url | tojson }},
 					shortcuts = {{ config.theme.shortcuts | tojson }};
 		</script>
+		{#-JQuery and Popper are required for search and keyboard dialogs #}
 		<script src="{{ 'assets/js/jquery.min.js'|url }}"></script>
 		<script async defer src="{{ 'assets/js/popper.min.js'|url }}"></script>
 		<script async defer src="{{ 'assets/js/bootstrap.min.js'|url }}"></script>
-		<script async defer src="{{ 'assets/js/bootstrap-table.min.js'|url }}"></script>
-		<script async defer src="{{ 'assets/js/bootstrap-table-filter-control.min.js'|url }}"></script>
 		<script async defer src="{{ 'assets/js/anchor.min.js'|url }}"></script>
 		<script async defer src="{{ 'assets/js/base.min.js'|url }}"></script>
 		<script async defer src="{{ 'assets/js/scroll-to-top.min.js'|url }}"></script>
 		{%- for path in extra_javascript %}
-		<script async defer src="{{ path }}"></script>
+		<script async defer src="{{ path|url }}"></script>
 		{%- endfor %}
 		{%- for script in page.meta.scripts %}
 		<script async defer src="{{ ['assets/js/', script, '.js']|join|url }}"></script>

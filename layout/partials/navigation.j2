@@ -17,7 +17,7 @@
 				class="navbar navbar-expand-lg bg-dark text-bg-dark"
 				data-bs-theme="dark"
 			>
-				<div class="container">
+				<div class="container-fluid">
 
 					<button
 						class="navbar-toggler"
@@ -47,12 +47,12 @@
 					</a>
 
 					<div class="collapse navbar-collapse" id="navbarContent">
-						<ul class="navbar-nav me-auto mt-2 mt-lg-0">
-						{%-set navigation = load_yaml(config.extra.nav) %}
-						{%-if navigation %}
-							{%-for item in navigation %}
-								{%-if item.type == "dropdown" %}
-									{%-set item_id = 'navbar' + item.label %}
+						<ul class="navbar-nav mt-2 mt-lg-0">
+							{%-set navigation = load_yaml(config.extra.nav) %}
+							{%-if navigation %}
+								{%-for item in navigation %}
+									{%-if item.type == "dropdown" %}
+										{%-set item_id = 'navbar' + item.label %}
 							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
@@ -63,11 +63,11 @@
 									aria-expanded="false"
 									aria-haspopup="true"
 								>
-									{%-if item.icon_type-%}
+									{%-if item.icon_type %}
 									<i
 										class="{{ item.icon_category }} fa-{{ item.icon_type }} fa-fw"
 										aria-hidden="true"></i>&nbsp;
-									{%-endif-%}
+									{%-endif %}
 									{{ item.label }}
 								</a>
 								<ul
@@ -84,7 +84,7 @@
 										<a class="dropdown-item{{ disabled }}"
 											href="{{ subitem.url|url }}"
 										>
-											{%-if subitem.icon_type-%}
+											{%-if subitem.icon_type %}
 											<i
 												class="{{ subitem.icon_category }} fa-{{ subitem.icon_type }} fa-fw"
 												aria-hidden="true"
@@ -96,7 +96,7 @@
 										{%-endif %}
 									{%-endfor %}
 								</ul>
-								{%-else %}
+								{%-else %} {#-if item.type == "dropdown" #}
 							<li class="nav-item">
 								<a
 									class="nav-link"
@@ -108,19 +108,13 @@
 										{%-endif %}
 									{{ item.label }}
 								</a>
-								{%-endif %}
+								{%-endif %} {#-if item.type == "dropdown" #}
 							</li>
-							{%-endfor %}
+							{%-endfor %} {#-for item in navigation #}
+						{%-endif %} {#-if navigation #}
 						</ul>
-						{%-else %}
-						{#
-							No navigation, make a stretched spacer to move
-							search and color scheme dropdown menu on the right
-						#}
-						<ul class="navbar-nav me-auto"></ul>
-						{%-endif %}
-						<ul class="navbar-nav">
-						{# Global Download ?
+						<ul class="navbar-nav ms-auto">
+							{#-Global Download ?
 							<li class="nav-item">
 								<a class="nav-link"
 									href="{{ 'downloads'|url }}"
@@ -129,8 +123,8 @@
 									Download
 								</a>
 							</li>
-						#}
-						{%-block search_button %}
+							-#}
+							{%-block search_button %}
 							{%-if 'search' in config['plugins'] %}
 							<li class="nav-item">
 									<a
@@ -142,7 +136,7 @@
 									</a>
 							</li>
 							{%-endif %}
-						{%-endblock %}
+							{%-endblock %}
 							<li class="nav-item dropdown">
 								<button
 									class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
