@@ -1,17 +1,16 @@
 name: Deploy site
-on: { push: { branches: [master] } }
+on: [push]
 permissions:
   contents: write
 jobs:
   deploy:
+    name: Linux Ubuntu 22.04
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive
-          # needed for accurate dates and blog plugin
-          fetch-depth: 0
+          fetch-depth: 0 # needed for accurate dates and blog plugin
       - name: Install Python
         uses: actions/setup-python@v4
         with:
@@ -26,8 +25,8 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Download assets
-        run: poetry run python3 scripts/download.py
+        run: poetry run python3 scripts/assets/download.py
       - name: Build assets
-        run: poetry run python3 scripts/uglify-assets.py
+        run: poetry run python3 scripts/assets/uglify.py
       - name: Build and deploy
         run: poetry run mkdocs gh-deploy --force
