@@ -1468,6 +1468,28 @@
       samplerate: ""
       short_description: ""
 
+  - name:    "Minifreak Pads"
+    #version: ""
+    author:  "SHLD Music"
+    license: "CC0-1.0"
+    url:     "https://drolez.com/blog/music/ableton-free-sound-packs.php#minifreak"
+    download_size: "265 MB"
+    short_description:
+      "5 sonic landscapes multi-sampled from the Arturia Minifreak:
+       VerdantMa, SereneLake, FroznToundra, LushValley, HillFactory. 
+       Atmospheric / cinematic style"
+
+  - name:    "Wavestate Pads"
+    #version: ""
+    author:  "SHLD Music"
+    license: "CC0-1.0"
+    url:     "https://drolez.com/blog/music/ableton-free-sound-packs.php#wavestate"
+    download_size: "160 MB"
+    short_description:
+      "3 sonic landscapes multi-sampled from the Korg Wavestate: 
+      ElectricRain, MistyMountain and MossyForest. A mix of virtual analog and digital layers"
+
+
 - name: "Vocals"
   page: "vocals"
   instruments:
