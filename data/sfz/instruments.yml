@@ -137,6 +137,15 @@
     short_description:
       "1972 Polish hollowbody bass guitar."
 
+  - name:    "Baconwulf"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    url:     "https://shop.karoryfer.com/products/baconwulf"
+    download_size: "4.8 GB"
+    short_description:
+      "Bass guitar with extended low range and extended techniques."
+
   - name:    "Kalimbass"
     version: "1.23.06a"
     author:  "Malaclypse the Younger"
@@ -149,22 +158,6 @@
       url: "https://drive.google.com/file/d/1rQZzrFHcB-6HcrbEUB0niMaKBcMDI_A7"
       format: "flac"
       samplerate: "48"
-      short_description: ""
-
-  - name:    "Black And Blue Basses"
-    version: "1.000"
-    author:  "Karoryfer Samples"
-    license: "CC0-1.0"
-    url:     "https://karoryfer-samples.myshopify.com/pages/free-black-and-blue-basses"
-    download_size: "1 GB"
-    short_description:
-      "Two 5-string bass guitars with very different looks and sounds. 2023 KVRDC entry."
-    downloads:
-    - label: "Instrument"
-      url: "https://github.com/sfzinstruments/karoryfer.black-and-blue-basses/releases/download/v1.001/Black_And_Blue_Basses_1001.zip"
-      format: "wav"
-      samplerate: "44.1"
-      size: "1 GB"
       short_description: ""
 
 - name: "Brass"
@@ -704,6 +697,16 @@
     short_description:
       "Boutique Jazzmaster-style guitar with extended techinques."
 
+  - name:    "Surfkiss"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/surfkiss"
+    download_size: "3.7 GB"
+    short_description:
+      "Boutique Jazzmaster-style guitar with lots of extended techinques."
+      
   - name:    "Black_And_Green_Guitars"
   # page:    "bng_guitars"
     author:  "Karoryfer Samples"
@@ -1489,7 +1492,6 @@
       "3 sonic landscapes multi-sampled from the Korg Wavestate: 
       ElectricRain, MistyMountain and MossyForest. A mix of virtual analog and digital layers"
 
-
 - name: "Vocals"
   page: "vocals"
   instruments:
@@ -1515,6 +1517,16 @@
     download_size: "1 GB"
     short_description:
       "Mezzosoprano vocal singing in reconstructed Proto-Indo-European."
+
+  - name:    "Dandelion Witch"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/dandelion-witch"
+    download_size: "250 MB"
+    short_description:
+      "Traditional Polish highland female vocal."
 
   - name:    "Hadzi-Fia"
   # page:    "hadzi_fia"
