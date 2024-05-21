@@ -26,7 +26,7 @@ mkdocs-gen-files = "^0.5.0"
 mkdocs-macros-plugin = "^1.0.1"
 mkdocs-minify-plugin = "^0.6.4"
 pymdown-extensions = "^10.0.1"
-requests = {extras = ["security"], version = "^2.31.0"}
+requests = {extras = ["security"], version = "^2.32.0"}
 
 [build-system]
 requires = ["poetry-core"]
