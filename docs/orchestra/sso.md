@@ -2,13 +2,14 @@
 title: "SSO"
 template: "sfz/instrument"
 ---
-The original version was created by Mattias Westlund in 2011,
-and quickly earned a following for its excellent quality and wide selection of
-instruments. This repository hosts the ongoing development of the library.
-Mattias is no longer directly involved (although he has given his permission for
-continuing to develop it) and has not personally reviewed all of the changes.
-In other words, don't email him with questions about it!
+Sonatina Symphonic Orchestra is a complete orchestral instrument library.  It
+includes ensemble and solo instruments for all sections of the orchestra
+(strings, winds, brass, percussion), as well as other useful instruments like
+piano, harpsichord, and chorus.
 
-The instruments are packaged in SFZ format.
-They can be used with any compatible player, such as Linux Sampler, Sforzando,
-and ARIA Player.
+The original version of SSO was created by Mattias Westlund in 2011,
+and quickly earned a following for its excellent quality and wide selection of
+instruments.  Since 2017 it has been developed and maintained by Peter Eastman.
+It has grown enormously over the years, and now features a huge range of
+instruments and articulations, with sound quality that rivals many commercial
+libraries.
