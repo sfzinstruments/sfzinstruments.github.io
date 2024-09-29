@@ -1435,7 +1435,7 @@
     short_description:
       "One close mic perspective from CFX Concert Grand."
 
-  - name:    "VCSL Keys
+  - name:    "VCSL Keys"
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
     url:     "https://versilian-studios.com/vcsl-keys/"
