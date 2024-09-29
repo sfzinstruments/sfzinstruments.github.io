@@ -462,7 +462,7 @@
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
     url:     "https://versilian-studios.com/virtuosity-drums/"
-  # download_size: ""
+    download_size: "1.1 GB"
     short_description: "Jazz drum kit in collaboration with Karoryfer Samples."
 
 - name: "Folk"
@@ -610,7 +610,7 @@
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
     url:     "https://versilian-studios.com/etherealwinds-harp/"
-  # download_size: ""
+    download_size: "200 MB"
     short_description: "Folk lever harp."
 
 - name: "Guitars"
@@ -900,8 +900,8 @@
     author:  "Versilian Studios LLC"
     license: "Commercial"
     url:     "https://versilian-studios.com/classic-series/"
-  # download_size: ""
-    short_description: "Percussion, harpsichords and pianos."
+    download_size: "2.3 GB"
+    short_description: "Anthology of mallets, harpsichords, and pianos."
 
 - name: "Orchestra"
   page: "orchestra"
@@ -1182,8 +1182,8 @@
     author:  "Versilian Studios LLC"
     license: "Commercial"
     url:     "https://versilian-studios.com/tubular-bells-ii/"
-  # download_size: ""
-    short_description: "Tubular bells."
+    download_size: "1.7 GB"
+    short_description: "Three sets of tubular bells/orchestral chimes."
 
 - name: "Pianos"
   page: "pianos"
@@ -1439,8 +1439,8 @@
     author:  "Versilian Studios LLC"
     license: "CC0-1.0"
     url:     "https://versilian-studios.com/vcsl-keys/"
-  # download_size: ""
-    short_description: "Pianos and harpsichords."
+    download_size: "680 MB"
+    short_description: "A collection of pianos and harpsichords from VCSL"
 
 - name: "Strings"
   page: "strings"
