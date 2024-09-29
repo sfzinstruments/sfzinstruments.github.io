@@ -458,6 +458,13 @@
       "Game Boy drum samples recorded by Fairly Confusing Waveforms,
       with both Kontakt and sfz instruments included."
 
+  - name:    "Virtuosity Drums"
+    author:  "Versilian Studios LLC"
+    license: "CC0-1.0"
+    url:     "https://versilian-studios.com/virtuosity-drums/"
+    download_size: "1.1 GB"
+    short_description: "Jazz drum kit in collaboration with Karoryfer Samples."
+
 - name: "Folk"
   page: "folk"
   instruments:
@@ -590,6 +597,21 @@
     downloads:
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/Karoryfer.HorsePulse/releases/download/v1.000/Karoryfer_Horse_Pulse_1000.zip"
+      
+  - name:    "World Instruments"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/world-instruments/"
+  # download_size: ""
+    short_description:
+      "More than 350 instruments from around the world."
+      
+  - name:    "Etherealwinds Harp II CE"
+    author:  "Versilian Studios LLC"
+    license: "CC0-1.0"
+    url:     "https://versilian-studios.com/etherealwinds-harp/"
+    download_size: "200 MB"
+    short_description: "Folk lever harp."
 
 - name: "Guitars"
   page: "guitars"
@@ -765,25 +787,14 @@
       samplerate: "44.1"
       size: "19 MB"
       short_description: "Zipped file"
-
-  - name:    "Terkelsen's Marimba"
-    page:    "terkelsen_marimba"
-  # version: "1"
-    author:  "Lars Terkelsen, S Christian Collins"
-    # license: "unknown"
-    url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
-    download_size: "50 MB"
+      
+  - name:    "Classic Pipe Organs"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/classic-pipe-organs/"
+  # download_size: ""
     short_description:
-      "Marimba sampled in stereo with 3 velocity layers, every note sampled.
-      Converted from the original GigaSampler version
-      by S. Christian Collins www.schristiancollins.com"
-    downloads:
-    - label: "Instrument"
-      url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
-      format: "wav (16bit)"
-      samplerate: "44.1"
-      size: "50 MB"
-      short_description: "zipped sfz"
+      "Six different pipe organs." 
 
 - name: "Misc"
   page: "misc"
@@ -869,6 +880,29 @@
     short_description:
       "Upright piano plus soundscapes. Compact sforzando version of larger Kontakt library."
 
+  - name:    "Concert and Marching Band 2"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/concert-marching-band-2/"
+    download_size: "1.4 GB"
+    short_description:
+      "Marching band winds, brass and percussion." 
+
+  - name:    "Jazz and Big Band 3"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/jazz-big-band-3/"
+  # download_size: ""
+    short_description:
+      "Horns, keys, bass, and rhythm section." 
+
+  - name:    "Classic Series Collection"
+    author:  "Versilian Studios LLC"
+    license: "Commercial"
+    url:     "https://versilian-studios.com/classic-series/"
+    download_size: "2.3 GB"
+    short_description: "Anthology of mallets, harpsichords, and pianos."
+
 - name: "Orchestra"
   page: "orchestra"
   instruments:
@@ -942,6 +976,30 @@
       size:   "360 KB"
       short_description: ""
 
+  - name:    "Harps"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/harps/"
+  # download_size: ""
+    short_description:
+      "Three orchestral harps." 
+
+  - name:    "Personal Orchestra 5"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/personal-orchestra-5/"
+  # download_size: ""
+    short_description:
+      "Traditional orchestral library."
+
+  - name:    "Instant Orchestra"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/instant-orchestra/"
+  # download_size: ""
+    short_description:
+      "Orchestral instrument combinations."
+      
 - name: "Percussion"
   page: "percussion"
   instruments:
@@ -1106,6 +1164,32 @@
       format: "flac"
       samplerate: "48"
       short_description: ""
+     
+  - name:    "Terkelsen's Marimba"
+    page:    "terkelsen_marimba"
+  # version: "1"
+    author:  "Lars Terkelsen, S Christian Collins"
+    # license: "unknown"
+    url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
+    download_size: "50 MB"
+    short_description:
+      "Marimba sampled in stereo with 3 velocity layers, every note sampled.
+      Converted from the original GigaSampler version
+      by S. Christian Collins www.schristiancollins.com"
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
+      format: "wav (16bit)"
+      samplerate: "44.1"
+      size: "50 MB"
+      short_description: "zipped sfz"
+
+  - name:    "Tubular Bells II"
+    author:  "Versilian Studios LLC"
+    license: "Commercial"
+    url:     "https://versilian-studios.com/tubular-bells-ii/"
+    download_size: "1.7 GB"
+    short_description: "Three sets of tubular bells/orchestral chimes."
 
 - name: "Pianos"
   page: "pianos"
@@ -1340,6 +1424,29 @@
   # download_size: ""
     short_description:
       "Classic electric piano."
+
+  - name:    "CFX Concert Grand"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/cfx-concert-grand-virtual-piano/"
+  # download_size: ""
+    short_description:
+      "Yamaha CFX recorded at Abbey Road."
+
+  - name:    "CFX Lite"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/cfx-concert-grand-virtual-piano-lite/"
+  # download_size: ""
+    short_description:
+      "One close mic perspective from CFX Concert Grand."
+
+  - name:    "VCSL Keys"
+    author:  "Versilian Studios LLC"
+    license: "CC0-1.0"
+    url:     "https://versilian-studios.com/vcsl-keys/"
+    download_size: "680 MB"
+    short_description: "A collection of pianos and harpsichords from VCSL"
 
 - name: "Strings"
   page: "strings"
