@@ -1431,6 +1431,15 @@
     - label: "Instrument"
       url: "https://github.com/sfzinstruments/karoryfer.sneakybass/releases/download/v1.000/Sneakybass_v1.000.zip"
 
+  - name:    "Strange String Summer"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    url:     "https://shop.karoryfer.com/products/strange-string-summer"
+    download_size: "1.2 GB"
+    short_description:
+      "A texture library featuring both bowed strings and folk instruments."
+
 - name: "Synthesizers"
   page: "synthesizers"
   instruments:
