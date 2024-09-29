@@ -874,14 +874,20 @@
   instruments:
   - name:    "Sonatina Symphonic Orchestra"
     page:    "sso"
-    version: "2.0"
+    version: "3.3"
     author:  "Mattias Westlund, Peter Eastman"
     license: "CC Sampling Plus 1.0"
     url:     "https://github.com/peastman/sso"
-    download_size: "695 MB"
+    download_size: "1.25 GB"
     short_description:
       "Sonatina Symphonic Orchestra (SSO) is a free library
       of sampled orchestral instruments."
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/peastman/sso/releases"
+      format: "wav, flac"
+      samplerate: "44.1 "
+      short_description: ""
 
   - name:    "VS Chamber Orchestra: Community Edition"
     page:    "vcso_ce"
