@@ -768,7 +768,15 @@
   # download_size: ""
     short_description:
       "Here’s Plogue’s offering of the now famous Taijiguy Free Mellotron samples."
-
+      
+  - name:    "Classic Pipe Organs"
+    author:  "Garritan"
+    license: "Commercial"
+    url:     "https://www.garritan.com/products/classic-pipe-organs/"
+  # download_size: ""
+    short_description:
+      "Six different pipe organs." 
+      
 - name: "Melodic Percussion"
   page: "melodic-percussion"
   instruments:
@@ -787,14 +795,32 @@
       samplerate: "44.1"
       size: "19 MB"
       short_description: "Zipped file"
-      
-  - name:    "Classic Pipe Organs"
-    author:  "Garritan"
-    license: "Commercial"
-    url:     "https://www.garritan.com/products/classic-pipe-organs/"
-  # download_size: ""
+
+  - name:    "Terkelsen's Marimba"
+    page:    "terkelsen_marimba"
+  # version: "1"
+    author:  "Lars Terkelsen, S Christian Collins"
+    # license: "unknown"
+    url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
+    download_size: "50 MB"
     short_description:
-      "Six different pipe organs." 
+      "Marimba sampled in stereo with 3 velocity layers, every note sampled.
+      Converted from the original GigaSampler version
+      by S. Christian Collins www.schristiancollins.com"
+    downloads:
+    - label: "Instrument"
+      url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
+      format: "wav (16bit)"
+      samplerate: "44.1"
+      size: "50 MB"
+      short_description: "zipped sfz"
+
+  - name:    "Tubular Bells II"
+    author:  "Versilian Studios LLC"
+    license: "Commercial"
+    url:     "https://versilian-studios.com/tubular-bells-ii/"
+    download_size: "1.7 GB"
+    short_description: "Three sets of tubular bells/orchestral chimes."
 
 - name: "Misc"
   page: "misc"
@@ -1164,32 +1190,6 @@
       format: "flac"
       samplerate: "48"
       short_description: ""
-     
-  - name:    "Terkelsen's Marimba"
-    page:    "terkelsen_marimba"
-  # version: "1"
-    author:  "Lars Terkelsen, S Christian Collins"
-    # license: "unknown"
-    url:     "https://github.com/sfzinstruments/Terkelsen.Marimba"
-    download_size: "50 MB"
-    short_description:
-      "Marimba sampled in stereo with 3 velocity layers, every note sampled.
-      Converted from the original GigaSampler version
-      by S. Christian Collins www.schristiancollins.com"
-    downloads:
-    - label: "Instrument"
-      url: "https://github.com/sfzinstruments/Terkelsen.Marimba/archive/refs/heads/master.zip"
-      format: "wav (16bit)"
-      samplerate: "44.1"
-      size: "50 MB"
-      short_description: "zipped sfz"
-
-  - name:    "Tubular Bells II"
-    author:  "Versilian Studios LLC"
-    license: "Commercial"
-    url:     "https://versilian-studios.com/tubular-bells-ii/"
-    download_size: "1.7 GB"
-    short_description: "Three sets of tubular bells/orchestral chimes."
 
 - name: "Pianos"
   page: "pianos"
