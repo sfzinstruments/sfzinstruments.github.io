@@ -934,11 +934,11 @@
   instruments:
   - name:    "Sonatina Symphonic Orchestra"
     page:    "sso"
-    version: "3.3"
+    version: "3.8"
     author:  "Mattias Westlund, Peter Eastman"
     license: "CC Sampling Plus 1.0"
     url:     "https://github.com/peastman/sso"
-    download_size: "1.25 GB"
+    download_size: "1.26 GB"
     short_description:
       "Sonatina Symphonic Orchestra (SSO) is a free library
       of sampled orchestral instruments."
