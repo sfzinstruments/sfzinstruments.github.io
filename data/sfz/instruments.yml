@@ -146,6 +146,15 @@
     short_description:
       "Bass guitar with extended low range and extended techniques."
 
+  - name:    "Karniszbass"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    url:     "https://shop.karoryfer.com/products/karniszbass"
+    download_size: "1.4 GB"
+    short_description:
+      "Two-string acoustic bass built around a wooden curtain rod."
+
   - name:    "Kalimbass"
     version: "1.23.06a"
     author:  "Malaclypse the Younger"
@@ -584,6 +593,16 @@
     download_size: "2.2 GB"
     short_description:
       "Tagelharpa, strakharpa and bass tagelharpa."
+
+  - name:    "Fourth Tagelharpa"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    format:  "wav"
+    url:     "https://shop.karoryfer.com/products/fourt-tagelharpa"
+    download_size: "0.8 GB"
+    short_description:
+      "Tagelharpa with sympathetic resonance strings."      
 
   - name:    "Horse Pulse"
   # page:    "horse_pulse"
@@ -1530,6 +1549,15 @@
     download_size: "900 MB"
     short_description:
       "Violin with a wide range of extended techniques."
+
+  - name:    "Merciful Cello"
+    version: "1.000"
+    author:  "Karoryfer Samples"
+    license: "Commercial"
+    url:     "https://shop.karoryfer.com/products/merciful-cello"
+    download_size: "0.9 GB"
+    short_description:
+      "Cello with true sampled vibrato and legato."
 
   - name:    "Sneakybass"
   # page:    "sneakybass"
