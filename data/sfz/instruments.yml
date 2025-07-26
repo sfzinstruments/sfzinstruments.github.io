@@ -1374,6 +1374,15 @@
       size: "394 MB"
       short_description: ""
 
+  - name:    "Accurate-Salamander Project"
+    author:  "Chisato Yamauchi"
+    version: "6.0"
+    license: "CC-BY"
+    url:     "https://www.ir.isas.jaxa.jp/~cyamauch/AccurateSalamander/"
+    download_size: "1.6 GB"
+    short_description:
+      "Salamander Grand Piano with improved tuning and dynamic consistency."
+
   - name:    "PiAnnette"
   # page:    "piannette"
   # version: ""
