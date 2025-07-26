@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>SFZ Instruments news</title>
+	<link href="https://sfzinstruments.github.io/atom.xml" rel="self"/>
+	<icon>https://sfzinstruments.github.io/assets/ico/favicon.ico</icon>
+	<link href="https://sfzinstruments.github.io"/>
+	<updated>2025-07-26T18:52:46+00:00</updated>
+	<id>https://sfzinstruments.github.io</id>
+	<entry>
+		<title>New Website Launched</title>
+		<author><name>redtide</name></author>
+		<link href="https://sfzinstruments.github.io/news/posts/2020-04-29-new-website-launched/"/>
+		<published>2020-04-28T23:00:00+01:00</published>
+		<id>/news/posts/2020-04-29-new-website-launched</id>
+		<content type="html"><p>After about one year on GitHub with the sfz format website,
+we hope this website also will grow and embrace participation
+from people around the world with some new sfz instruments experience.</p></content>
+	</entry>
+</feed>

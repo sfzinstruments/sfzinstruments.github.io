@@ -1,0 +1,14 @@
+{
+    "name": "SFZ Format",
+    "short_name": "SFZ Format",
+    "icons": [
+        {
+            "src": "/assets/ico/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
